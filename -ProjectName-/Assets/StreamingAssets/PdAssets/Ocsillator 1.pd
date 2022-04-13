@@ -4,8 +4,6 @@
 #X obj 122 169 *~;
 #X obj 122 126 adc~;
 #X obj 98 169 *~;
-#X msg 141 208 \; pd dsp 1;
-#X msg 239 211 \; pd dsp 0;
 #X connect 0 0 4 0;
 #X connect 0 0 2 0;
 #X connect 2 0 1 1;
