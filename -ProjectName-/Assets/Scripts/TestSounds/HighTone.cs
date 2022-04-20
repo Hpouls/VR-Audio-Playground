@@ -11,8 +11,7 @@ public class HighTone : MonoBehaviour {
     }
 
     private void OnTriggerEnter(Collider other){
-        if (other.tag == "DrumStickHead") {
-            source.pitch = 1.2f;
+        if (other.tag == "SoundMaker") {
             source.Play();
         }
     }
