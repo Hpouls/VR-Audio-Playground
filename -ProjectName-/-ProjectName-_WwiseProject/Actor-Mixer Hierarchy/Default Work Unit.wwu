@@ -30,6 +30,29 @@
 						<ActiveSource Name="telephonebell" ID="{9C8086D4-9283-47B8-97E1-2131D6AAE42F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="ES_Forest Ambience 2 - SFX Producer" ID="{E6C72A6E-B5B1-4B7C-BE39-DED27C620895}" ShortID="875409537">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ES_Forest Ambience 2 - SFX Producer" ID="{73E2FB2A-6AF5-4D5D-BFAD-74AD5030A19D}">
+							<Language>SFX</Language>
+							<AudioFile>ES_Forest Ambience 2 - SFX Producer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1039888937"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ES_Forest Ambience 2 - SFX Producer" ID="{73E2FB2A-6AF5-4D5D-BFAD-74AD5030A19D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

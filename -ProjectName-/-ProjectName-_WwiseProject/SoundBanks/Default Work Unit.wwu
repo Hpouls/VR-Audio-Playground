@@ -3,9 +3,9 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{554E937D-2369-4D7D-9D5F-4422770A94F3}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="MainSoundBank" ID="{4613550C-C2C7-4605-A256-2D17BF647C6D}">
+				<SoundBank Name="Main" ID="{597DC383-4648-4EDF-A4A8-0E131010F525}">
 					<ObjectInclusionList>
-						<ObjectRef Name="TelephoneBell_Player" ID="{A38F3F9B-7D92-4E13-963C-208029E8C50C}" WorkUnitID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ForestAmbience_event" ID="{3181064D-6C2A-4CD1-A367-C1F782648660}" WorkUnitID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

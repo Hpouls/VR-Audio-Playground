@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3787218347	ForestAmbience_event			\Default Work Unit\ForestAmbience_event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1039888937	ES_Forest Ambience 2 - SFX Producer	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\ES_Forest Ambience 2 - SFX Producer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ES_Forest Ambience 2 - SFX Producer		10893376
+

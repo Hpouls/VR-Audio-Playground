@@ -14,6 +14,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="ForestAmbience_event" ID="{3181064D-6C2A-4CD1-A367-C1F782648660}">
+					<ChildrenList>
+						<Action Name="" ID="{694A2E28-ACE6-44E4-B3FC-B9FB95474300}" ShortID="584374416">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ES_Forest Ambience 2 - SFX Producer" ID="{E6C72A6E-B5B1-4B7C-BE39-DED27C620895}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
