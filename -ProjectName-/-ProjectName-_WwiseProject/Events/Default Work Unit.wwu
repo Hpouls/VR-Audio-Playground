@@ -3,12 +3,12 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="TelephoneBell_Player" ID="{A38F3F9B-7D92-4E13-963C-208029E8C50C}">
+				<Event Name="Footsteps" ID="{76DFF262-8276-45E3-9E99-E01BB61D96F9}">
 					<ChildrenList>
-						<Action Name="" ID="{F979441C-B40E-4072-BA58-4ED17367E160}" ShortID="307225605">
+						<Action Name="" ID="{CFBF3913-F29E-4339-8F09-3C51EB84840F}" ShortID="197564661">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="telephonebell" ID="{10EE351D-D833-4B8C-84F2-C3BCAC8712BD}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+									<ObjectRef Name="Sounds" ID="{7C17FC8D-10FD-4284-9B39-B77495E2F2F9}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -3,7 +3,9 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{1094033C-BEEC-4055-9AEC-C10D15068D8B}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\hanni\Downloads\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="C:\Users\hanni\OneDrive\Skrivebord\Sounds\Footsteps\"/>
+				<Property Name="Event Action List\{76DFF262-8276-45E3-9E99-E01BB61D96F9}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{A38F3F9B-7D92-4E13-963C-208029E8C50C}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="EventView\FilterMode1" Type="int32" Value="2"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
@@ -71,7 +73,7 @@
 					<ValueList>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
 						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
-						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="Windows">..\Assets\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
