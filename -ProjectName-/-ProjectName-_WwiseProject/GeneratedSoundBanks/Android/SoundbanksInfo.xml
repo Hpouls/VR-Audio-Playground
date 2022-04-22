@@ -11,20 +11,55 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="290249203">
+		<SoundBank Id="534561221" Language="SFX" Hash="4213815135">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2607810968" Name="TelephoneBell_Player" ObjectPath="\Events\Default Work Unit\TelephoneBell_Player" DurationType="OneShot" DurationMin="14.086667" DurationMax="14.086667">
+				<Event Id="2385628198" Name="Footsteps" ObjectPath="\Events\Default Work Unit\Footsteps" DurationType="OneShot" DurationMin="0.470204" DurationMax="1.857596">
 					<IncludedMemoryFiles>
-						<File Id="1012794734" Language="SFX">
-							<ShortName>telephonebell.wav</ShortName>
-							<Path>SFX\telephonebell_B7C2B65B.wem</Path>
+						<File Id="227755614" Language="SFX">
+							<ShortName>Sounds\Dirt\ok.wav</ShortName>
+							<Path>SFX\Sounds\Dirt\ok_10C4C929.wem</Path>
+						</File>
+						<File Id="332170098" Language="SFX">
+							<ShortName>Sounds\Concrete\Mmmmh.wav</ShortName>
+							<Path>SFX\Sounds\Concrete\Mmmmh_10C4C929.wem</Path>
+						</File>
+						<File Id="477579337" Language="SFX">
+							<ShortName>Sounds\Dirt\Balls.wav</ShortName>
+							<Path>SFX\Sounds\Dirt\Balls_10C4C929.wem</Path>
+						</File>
+						<File Id="487259023" Language="SFX">
+							<ShortName>Sounds\Concrete\telephonebell.wav</ShortName>
+							<Path>SFX\Sounds\Concrete\telephonebell_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{EA26745F-F14C-4EB5-B445-93349165A6A9}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{EA26745F-F14C-4EB5-B445-93349165A6A9}">
+							<Media>
+								<File Id="227755614"/>
+								<File Id="477579337"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{2CF652A6-7C61-4648-9AF2-94E023A8D320}">
+							<Media>
+								<File Id="332170098"/>
+								<File Id="487259023"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 			</IncludedEvents>
+			<SwitchGroups>
+				<SwitchGroup Id="2385628198" Name="Footsteps" ObjectPath="\Switches\Default Work Unit\Footsteps" GUID="{36CCAC3C-D818-480F-8F20-AFA0CB9D45BF}">
+					<Switches>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\Footsteps\Dirt" GUID="{EA26745F-F14C-4EB5-B445-93349165A6A9}"/>
+						<Switch Id="1216965916" Name="Stone" ObjectPath="\Switches\Default Work Unit\Footsteps\Stone" GUID="{2CF652A6-7C61-4648-9AF2-94E023A8D320}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="2901137828">
 			<ObjectPath>Init</ObjectPath>

@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<SoundBank Name="MainSoundBank" ID="{4613550C-C2C7-4605-A256-2D17BF647C6D}">
 					<ObjectInclusionList>
-						<ObjectRef Name="TelephoneBell_Player" ID="{A38F3F9B-7D92-4E13-963C-208029E8C50C}" WorkUnitID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Footsteps" ID="{76DFF262-8276-45E3-9E99-E01BB61D96F9}" WorkUnitID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

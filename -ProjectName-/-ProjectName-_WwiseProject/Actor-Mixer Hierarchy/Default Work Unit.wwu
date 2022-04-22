@@ -3,33 +3,167 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{21750381-A7F7-4353-8E35-38E739A28D7A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="telephonebell" ID="{10EE351D-D833-4B8C-84F2-C3BCAC8712BD}" ShortID="898147285">
+				<SwitchContainer Name="Sounds" ID="{7C17FC8D-10FD-4284-9B39-B77495E2F2F9}" ShortID="150671974">
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
 						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="Dirt" ID="{EA26745F-F14C-4EB5-B445-93349165A6A9}" WorkUnitID="{4CCCFC81-D033-40DC-8CAC-936B2963EACE}"/>
+						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
 						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Footsteps" ID="{36CCAC3C-D818-480F-8F20-AFA0CB9D45BF}" WorkUnitID="{4CCCFC81-D033-40DC-8CAC-936B2963EACE}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="telephonebell" ID="{9C8086D4-9283-47B8-97E1-2131D6AAE42F}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.0178764805414553"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>telephonebell.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1012794734"/>
-							</MediaIDList>
-						</AudioFileSource>
+						<RandomSequenceContainer Name="Stone" ID="{8F1B6D85-049C-44CB-A7DB-F5BE17F97EC4}" ShortID="699889372">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Mmmmh" ID="{6C771920-D585-4D5D-AE83-63E52C63455F}" ShortID="853157895">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mmmmh" ID="{12FEBDF6-EEC3-43F6-BB37-FBA2AA9750A5}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Concrete\Mmmmh.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="332170098"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mmmmh" ID="{12FEBDF6-EEC3-43F6-BB37-FBA2AA9750A5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="telephonebell" ID="{AE6830BE-FB9C-4A63-83E3-D1D06BA604B1}" ShortID="30649047">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="telephonebell" ID="{004145B6-0AFA-4F0E-851E-E5720D5E811B}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Concrete\telephonebell.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="487259023"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="telephonebell" ID="{004145B6-0AFA-4F0E-851E-E5720D5E811B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="Dirt" ID="{37843AAE-6C75-4C88-A2EB-47286FCB6BC2}" ShortID="753778333">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Balls" ID="{B511C22D-2B27-439C-A803-E5B6D8D29090}" ShortID="389029021">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Balls" ID="{231B8F02-2F98-4EBC-B460-B2E819200310}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Dirt\Balls.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="477579337"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Balls" ID="{231B8F02-2F98-4EBC-B460-B2E819200310}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ok" ID="{83B0EC55-FAEC-492E-B032-2DBE5AC6F731}" ShortID="1014661891">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ok" ID="{514D6E15-46BD-4C3C-B0AB-B0B19D504AC8}">
+											<Language>SFX</Language>
+											<AudioFile>Sounds\Dirt\ok.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="227755614"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ok" ID="{514D6E15-46BD-4C3C-B0AB-B0B19D504AC8}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
 					</ChildrenList>
 					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="telephonebell" ID="{9C8086D4-9283-47B8-97E1-2131D6AAE42F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Stone" ID="{8F1B6D85-049C-44CB-A7DB-F5BE17F97EC4}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Dirt" ID="{37843AAE-6C75-4C88-A2EB-47286FCB6BC2}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="Dirt" ID="{EA26745F-F14C-4EB5-B445-93349165A6A9}"/>
+								<ItemList>
+									<ItemRef Name="Dirt" ID="{37843AAE-6C75-4C88-A2EB-47286FCB6BC2}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="Stone" ID="{2CF652A6-7C61-4648-9AF2-94E023A8D320}"/>
+								<ItemList>
+									<ItemRef Name="Stone" ID="{8F1B6D85-049C-44CB-A7DB-F5BE17F97EC4}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
