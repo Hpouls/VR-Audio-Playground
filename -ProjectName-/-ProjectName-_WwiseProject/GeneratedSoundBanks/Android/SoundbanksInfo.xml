@@ -11,10 +11,20 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="534561221" Language="SFX" Hash="2673314093">
+		<SoundBank Id="534561221" Language="SFX" Hash="290249203">
 			<ObjectPath>\SoundBanks\Default Work Unit\MainSoundBank</ObjectPath>
 			<ShortName>MainSoundBank</ShortName>
 			<Path>MainSoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2607810968" Name="TelephoneBell_Player" ObjectPath="\Events\Default Work Unit\TelephoneBell_Player" DurationType="OneShot" DurationMin="14.086667" DurationMax="14.086667">
+					<IncludedMemoryFiles>
+						<File Id="1012794734" Language="SFX">
+							<ShortName>telephonebell.wav</ShortName>
+							<Path>SFX\telephonebell_B7C2B65B.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1355168291" Language="SFX" Hash="2901137828">
 			<ObjectPath>Init</ObjectPath>

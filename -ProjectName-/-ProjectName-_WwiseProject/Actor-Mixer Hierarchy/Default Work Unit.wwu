@@ -1,6 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{21750381-A7F7-4353-8E35-38E739A28D7A}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{21750381-A7F7-4353-8E35-38E739A28D7A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{21750381-A7F7-4353-8E35-38E739A28D7A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="telephonebell" ID="{10EE351D-D833-4B8C-84F2-C3BCAC8712BD}" ShortID="898147285">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="telephonebell" ID="{9C8086D4-9283-47B8-97E1-2131D6AAE42F}">
+							<PropertyList>
+								<Property Name="FadeInDuration" Type="Real64" Value="0.0178764805414553"/>
+								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>telephonebell.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1012794734"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="telephonebell" ID="{9C8086D4-9283-47B8-97E1-2131D6AAE42F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

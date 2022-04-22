@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" SchemaVersion="103">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="TelephoneBell_Player" ID="{A38F3F9B-7D92-4E13-963C-208029E8C50C}">
+					<ChildrenList>
+						<Action Name="" ID="{F979441C-B40E-4072-BA58-4ED17367E160}" ShortID="307225605">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="telephonebell" ID="{10EE351D-D833-4B8C-84F2-C3BCAC8712BD}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>

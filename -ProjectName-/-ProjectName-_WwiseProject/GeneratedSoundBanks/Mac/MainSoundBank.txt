@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2607810968	TelephoneBell_Player			\Default Work Unit\TelephoneBell_Player	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	1012794734	telephonebell	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\telephonebell_B7C2B65B.wem		\Actor-Mixer Hierarchy\Default Work Unit\telephonebell		2704704
+
