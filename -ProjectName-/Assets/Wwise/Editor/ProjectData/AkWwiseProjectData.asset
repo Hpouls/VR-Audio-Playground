@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: fa6a1dc76c60d9438c3f84b29c138e82
     GuidInternal: 
-    m_lastTime: -8585505431820448276
+    m_lastTime: -8585505421678150313
     List:
     - name: Footsteps
       guid: 62f2df767682e3459e99e01bb61d96f9
@@ -387,6 +387,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0.353553
       minDuration: 0.353553
+    - name: Mmmh
+      guid: 7c1f6db77124cf46bc9e1d2135fb67e2
+      id: 2558606316
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fa6a1dc76c60d9438c3f84b29c138e82
+      - ElementName: Instruments
+        ObjectType: 4
+        guid: 74906a49cf8884439ffb8e1fe2ff2878
+      - ElementName: Mmmh
+        ObjectType: 3
+        guid: 7c1f6db77124cf46bc9e1d2135fb67e2
+      Path: Events\Default Work Unit\Instruments\Mmmh
+      maxAttenuation: 0
+      maxDuration: 0.992653
+      minDuration: 0.992653
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -508,7 +528,7 @@ MonoBehaviour:
         guid: ea53b2326ee57a4da8d183c784f75930
       Path: Triggers\Default Work Unit\Marimba
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000200000003000000050000000600000007000000090000000a0000000f00000010000000110000001b000000
+  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000700000008000000090000000a0000000b0000000f00000010000000110000001b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -26,6 +26,7 @@ namespace AK
         static const AkUniqueID MARIMBA_10 = 2408547958U;
         static const AkUniqueID MARIMBA_11 = 2408547959U;
         static const AkUniqueID MARIMBA_12 = 2408547956U;
+        static const AkUniqueID MMMH = 2558606316U;
     } // namespace EVENTS
 
     namespace SWITCHES

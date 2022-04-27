@@ -410,6 +410,33 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="BoomWhacker" ID="{9B55E256-1F9B-4CC0-A71A-E43C8F677D23}" ShortID="744276840">
+					<ChildrenList>
+						<Sound Name="Mmmmh" ID="{FD3362E4-8CA7-494D-AD5A-4F3CFF27C661}" ShortID="574108361">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Mmmmh" ID="{83E8E50D-EC16-4E77-8441-D56A0AD0AE1C}">
+									<Language>SFX</Language>
+									<AudioFile>Mmmmh.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1015516075"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Mmmmh" ID="{83E8E50D-EC16-4E77-8441-D56A0AD0AE1C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
