@@ -6,7 +6,7 @@ public class tangColourChange : MonoBehaviour
 {
     public Material[] material;
     Renderer rend;
-    public bool switchMaterial = true;
+    //public bool switchMaterial = true;
     public int i;
 
     // Start is called before the first frame update
@@ -17,21 +17,20 @@ public class tangColourChange : MonoBehaviour
         rend.sharedMaterial = material[0];
         
     }
-
-    // Update is called once per frame
-    void Update()
+   
+    
+    void OnCollisionEnter(Collision col)
     {
-        if (switchMaterial == true){
-            i = 0;
-        }
-        else
+        if (col.gameObject.tag == "Tool")
         {
-            i = 1;
+                rend.sharedMaterial = material[1];
         }
-
-        rend.sharedMaterial = material[i];
-        switchMaterial = !switchMaterial;
-       
-
+        
     }
+
+    void OnCollisionExit(Collision col)
+    {
+        rend.sharedMaterial = material[0];
+    }
+
 }
