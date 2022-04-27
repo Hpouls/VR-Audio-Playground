@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>/Users/maxsarinelli/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Potato-Rock-Studio/-ProjectName-/-ProjectName-_WwiseProject/</ProjectRoot>
-		<SourceFilesRoot>/Users/maxsarinelli/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Potato-Rock-Studio/-ProjectName-/-ProjectName-_WwiseProject/.cache/Windows/</SourceFilesRoot>
-		<SoundBanksRoot>/Users/maxsarinelli/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Potato-Rock-Studio/-ProjectName-/-ProjectName-_WwiseProject/GeneratedSoundBanks/Windows/</SoundBanksRoot>
+		<ProjectRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>/Users/maxsarinelli/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Potato-Rock-Studio/-ProjectName-/-ProjectName-_WwiseProject/GeneratedSoundBanks/Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3005200412">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3977127563">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -25,7 +25,103 @@
 					<IncludedMemoryFiles>
 						<File Id="1039888937" Language="SFX">
 							<ShortName>ES_Forest Ambience 2 - SFX Producer.wav</ShortName>
-							<Path>SFX/ES_Forest Ambience 2 - SFX Producer_10C4C929.wem</Path>
+							<Path>SFX\ES_Forest Ambience 2 - SFX Producer_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325544" Name="Marimba_01" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_01" DurationType="OneShot" DurationMin="0.187288" DurationMax="0.187288">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325547" Name="Marimba_02" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_02" DurationType="OneShot" DurationMin="0.198425" DurationMax="0.198425">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325546" Name="Marimba_03" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_03" DurationType="OneShot" DurationMin="0.210224" DurationMax="0.210224">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325549" Name="Marimba_04" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_04" DurationType="OneShot" DurationMin="0.222725" DurationMax="0.222725">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325548" Name="Marimba_05" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_05" DurationType="OneShot" DurationMin="0.235969" DurationMax="0.235969">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325551" Name="Marimba_06" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_06" DurationType="OneShot" DurationMin="0.25" DurationMax="0.25">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325550" Name="Marimba_07" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_07" DurationType="OneShot" DurationMin="0.264866" DurationMax="0.264866">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325537" Name="Marimba_08" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_08" DurationType="OneShot" DurationMin="0.280616" DurationMax="0.280616">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325536" Name="Marimba_09" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_09" DurationType="OneShot" DurationMin="0.297302" DurationMax="0.297302">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2408547958" Name="Marimba_10" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_10" DurationType="OneShot" DurationMin="0.31498" DurationMax="0.31498">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2408547959" Name="Marimba_11" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_11" DurationType="OneShot" DurationMin="0.33371" DurationMax="0.33371">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2408547956" Name="Marimba_12" ObjectPath="\Events\Default Work Unit\Instruments\Marimba_12" DurationType="OneShot" DurationMin="0.353553" DurationMax="0.353553">
+					<IncludedMemoryFiles>
+						<File Id="813049334" Language="SFX">
+							<ShortName>560674__gamedrix__b1.wav</ShortName>
+							<Path>SFX\560674__gamedrix__b1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

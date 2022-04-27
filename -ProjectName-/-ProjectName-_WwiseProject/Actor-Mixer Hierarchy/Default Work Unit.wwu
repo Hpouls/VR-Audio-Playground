@@ -53,6 +53,363 @@
 						<ActiveSource Name="ES_Forest Ambience 2 - SFX Producer" ID="{73E2FB2A-6AF5-4D5D-BFAD-74AD5030A19D}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Marimba" ID="{5CEC8936-3210-4474-9406-A6140E0F3BD7}" ShortID="357580215">
+					<ChildrenList>
+						<Sound Name="560674__gamedrix__b1" ID="{4A674C82-16F7-4FA3-B1B3-4299259098A3}" ShortID="614374452">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>500</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{7D433B35-75B0-4761-BAE4-EB6E66BF5D63}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{7D433B35-75B0-4761-BAE4-EB6E66BF5D63}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_01" ID="{8370CF93-96C9-49BC-A4FE-B6C3D0AC6405}" ShortID="416691630">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>400</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{DFD2F838-7799-43DB-BD9B-9D26C5F3CE01}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{DFD2F838-7799-43DB-BD9B-9D26C5F3CE01}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_02" ID="{7BFC404C-3FF5-4509-B97A-538A7B39EE31}" ShortID="177834511">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>300</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{FC4DB6A9-3B7E-4EEB-B6A6-6D65F93D63D4}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{FC4DB6A9-3B7E-4EEB-B6A6-6D65F93D63D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_03" ID="{0A9E0F12-1FE5-415D-BF17-EE0C87FFE734}" ShortID="636545417">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{A377A3F4-DAA1-417A-8120-335580975EC7}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{A377A3F4-DAA1-417A-8120-335580975EC7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_04" ID="{D7EFD387-D7A1-435B-9AD3-6FD697EAC818}" ShortID="305411479">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{CEB74CC4-FA0F-41ED-BC7B-FB0BB42C423C}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{CEB74CC4-FA0F-41ED-BC7B-FB0BB42C423C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_05" ID="{ACB95CD0-21B8-4BF5-B3FB-AF451010C8D1}" ShortID="1058642225">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{E6D289BE-C7B5-4DBB-ADFA-4452F7637AA3}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{E6D289BE-C7B5-4DBB-ADFA-4452F7637AA3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_06" ID="{4F7E9FCC-644B-4DD3-8740-3B58933C9360}" ShortID="756430297">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-100</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{A7A25F5F-9D1E-4144-912D-DF34AD0123D8}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{A7A25F5F-9D1E-4144-912D-DF34AD0123D8}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_07" ID="{C135705E-DEE3-410C-9569-EE292FA422C6}" ShortID="313433333">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-200</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{E954E305-953B-4758-9CC7-EBC9AC488BE0}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{E954E305-953B-4758-9CC7-EBC9AC488BE0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_08" ID="{406A3A21-3ACE-435C-93CD-8842E276A3F0}" ShortID="445554174">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-300</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{459C9F46-F6FF-4C71-8F1A-A9D8B77F8F4A}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{459C9F46-F6FF-4C71-8F1A-A9D8B77F8F4A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_09" ID="{7F6A5A0B-A8FA-4FF6-B328-B3B67E2BE5EE}" ShortID="737060602">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-400</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{44E97CE6-C202-437A-81DE-9DB5CC9E67E6}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{44E97CE6-C202-437A-81DE-9DB5CC9E67E6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_10" ID="{AE2B5ACC-EC72-49BD-BBB7-2BA5DD1011A6}" ShortID="222260214">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-500</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{0CD29C49-C3D0-4853-A9C1-91B782D67A20}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{0CD29C49-C3D0-4853-A9C1-91B782D67A20}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="560674__gamedrix__b1_11" ID="{A2969281-B825-4197-99E2-F10553935DFA}" ShortID="1032037021">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-600</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="560674__gamedrix__b1" ID="{625FCA4E-A7BA-4AF0-A827-80A0528C6B41}">
+									<Language>SFX</Language>
+									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="813049334"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="560674__gamedrix__b1" ID="{625FCA4E-A7BA-4AF0-A827-80A0528C6B41}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

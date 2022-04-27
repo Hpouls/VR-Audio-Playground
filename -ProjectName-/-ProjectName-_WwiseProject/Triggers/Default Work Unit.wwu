@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{70A07911-B89C-41E9-A1D2-DE0FF8A5DFEF}" SchemaVersion="103">
 	<Triggers>
-		<WorkUnit Name="Default Work Unit" ID="{70A07911-B89C-41E9-A1D2-DE0FF8A5DFEF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{70A07911-B89C-41E9-A1D2-DE0FF8A5DFEF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Trigger Name="Marimba" ID="{32B253EA-E56E-4D7A-A8D1-83C784F75930}"/>
+			</ChildrenList>
+		</WorkUnit>
 	</Triggers>
 </WwiseDocument>

@@ -14,6 +14,18 @@ namespace AK
     namespace EVENTS
     {
         static const AkUniqueID FORESTAMBIENCE_EVENT = 3787218347U;
+        static const AkUniqueID MARIMBA_01 = 2425325544U;
+        static const AkUniqueID MARIMBA_02 = 2425325547U;
+        static const AkUniqueID MARIMBA_03 = 2425325546U;
+        static const AkUniqueID MARIMBA_04 = 2425325549U;
+        static const AkUniqueID MARIMBA_05 = 2425325548U;
+        static const AkUniqueID MARIMBA_06 = 2425325551U;
+        static const AkUniqueID MARIMBA_07 = 2425325550U;
+        static const AkUniqueID MARIMBA_08 = 2425325537U;
+        static const AkUniqueID MARIMBA_09 = 2425325536U;
+        static const AkUniqueID MARIMBA_10 = 2408547958U;
+        static const AkUniqueID MARIMBA_11 = 2408547959U;
+        static const AkUniqueID MARIMBA_12 = 2408547956U;
     } // namespace EVENTS
 
     namespace SWITCHES
@@ -30,6 +42,11 @@ namespace AK
         } // namespace FOOTSTEPS
 
     } // namespace SWITCHES
+
+    namespace TRIGGERS
+    {
+        static const AkUniqueID MARIMBA = 3091781674U;
+    } // namespace TRIGGERS
 
     namespace BANKS
     {

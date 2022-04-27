@@ -25,6 +25,142 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Instruments" ID="{496A9074-88CF-4384-9FFB-8E1FE2FF2878}" ShortID="666548553">
+					<ChildrenList>
+						<Event Name="Marimba_01" ID="{5632C232-C711-476E-AE9D-1307FAB535E4}">
+							<ChildrenList>
+								<Action Name="" ID="{B2292C0B-0D92-4FF9-ACBF-F2BD708AC07E}" ShortID="697236886">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1" ID="{4A674C82-16F7-4FA3-B1B3-4299259098A3}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_02" ID="{CE02D8DC-EE43-4CE7-A78F-FC243F9DE819}">
+							<ChildrenList>
+								<Action Name="" ID="{FDE35D5C-9D5E-4C8D-AD5C-2B6D9C474975}" ShortID="712604936">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_01" ID="{8370CF93-96C9-49BC-A4FE-B6C3D0AC6405}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_03" ID="{2E76AD3D-133B-4723-8997-05642F58B5E4}">
+							<ChildrenList>
+								<Action Name="" ID="{80753944-D079-4789-8BCF-88D1D6F0FF64}" ShortID="604686817">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_02" ID="{7BFC404C-3FF5-4509-B97A-538A7B39EE31}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_04" ID="{D1F807EF-DE5E-473A-AD1C-80403830AA23}">
+							<ChildrenList>
+								<Action Name="" ID="{5B0EFBD8-0B21-4161-B6B3-7EE421B00813}" ShortID="956685506">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_03" ID="{0A9E0F12-1FE5-415D-BF17-EE0C87FFE734}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_05" ID="{FBF39C0B-5493-485B-82AB-5506B95D5F21}">
+							<ChildrenList>
+								<Action Name="" ID="{6346451D-A95D-4224-B79C-F5CC6C93DBA7}" ShortID="566497314">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_04" ID="{D7EFD387-D7A1-435B-9AD3-6FD697EAC818}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_06" ID="{BC4BF1EB-8156-41FA-9A78-008BE7BA9312}">
+							<ChildrenList>
+								<Action Name="" ID="{A99133F0-48F3-4E7D-A331-762D01EE58BB}" ShortID="741420133">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_05" ID="{ACB95CD0-21B8-4BF5-B3FB-AF451010C8D1}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_07" ID="{5345EB0C-7D2D-4AC6-AECD-19EF3C1721DC}">
+							<ChildrenList>
+								<Action Name="" ID="{5C4F4169-E774-4B10-83D7-2088D4F2F546}" ShortID="524824887">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_06" ID="{4F7E9FCC-644B-4DD3-8740-3B58933C9360}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_08" ID="{ECA667BE-7A42-4FCD-8CEA-D2AFE536CC95}">
+							<ChildrenList>
+								<Action Name="" ID="{D5A45D0F-4E79-42CB-8049-EDEE756C430D}" ShortID="918326131">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_07" ID="{C135705E-DEE3-410C-9569-EE292FA422C6}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_09" ID="{B3EF6525-3CD6-4558-8D1B-0F07A59E593F}">
+							<ChildrenList>
+								<Action Name="" ID="{07889886-6E0D-415F-885E-98E194303CED}" ShortID="771177090">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_08" ID="{406A3A21-3ACE-435C-93CD-8842E276A3F0}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_10" ID="{47E477F7-54F5-496F-914F-DD6900E2B56A}">
+							<ChildrenList>
+								<Action Name="" ID="{A5E931F5-23AD-4996-B396-9583069B5033}" ShortID="798935512">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_09" ID="{7F6A5A0B-A8FA-4FF6-B328-B3B67E2BE5EE}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_11" ID="{CB287472-9B93-49D4-8B5B-E93C57A86380}">
+							<ChildrenList>
+								<Action Name="" ID="{14190C36-D250-4EC9-B85A-8B2A3AFBAFBE}" ShortID="780778978">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_10" ID="{AE2B5ACC-EC72-49BD-BBB7-2BA5DD1011A6}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Marimba_12" ID="{6427AB50-C117-40C0-84CF-3320C08B7DDA}">
+							<ChildrenList>
+								<Action Name="" ID="{9FE2823C-0B1A-45AB-8443-483AD693B68A}" ShortID="580552537">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="560674__gamedrix__b1_11" ID="{A2969281-B825-4197-99E2-F10553935DFA}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

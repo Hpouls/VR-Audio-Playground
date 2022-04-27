@@ -9,6 +9,8 @@ public class tangColourChange : MonoBehaviour
     //public bool switchMaterial = true;
     public int i;
 
+    public AK.Wwise.Event SomeSound;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -21,10 +23,9 @@ public class tangColourChange : MonoBehaviour
     
     void OnCollisionEnter(Collision col)
     {
-        if (col.gameObject.tag == "Tool")
-        {
-                rend.sharedMaterial = material[1];
-        }
+        rend.sharedMaterial = material[1];
+
+        SomeSound.Post(gameObject);
         
     }
 

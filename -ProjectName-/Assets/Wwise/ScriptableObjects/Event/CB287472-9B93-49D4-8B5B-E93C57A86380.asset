@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082fc481c841f3640a9dccf89ece32cc, type: 3}
+  m_Name: CB287472-9B93-49D4-8B5B-E93C57A86380
+  m_EditorClassIdentifier: 
+  objectName: Marimba_11
+  id: 2408547959
+  guid: CB287472-9B93-49D4-8B5B-E93C57A86380
