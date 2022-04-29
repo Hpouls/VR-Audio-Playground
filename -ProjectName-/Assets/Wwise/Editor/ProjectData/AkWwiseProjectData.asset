@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: bf92dcc8daaf0a4ab64f0a4d93aa5f0c
     GuidInternal: 
-    m_lastTime: -8585505596696712006
+    m_lastTime: -8585505567041440817
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 037af52077545a40a4d9f12cf2d4e631
     GuidInternal: 
-    m_lastTime: -8585505596699442733
+    m_lastTime: -8585505567056458940
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 7d934e5569237d4d9d5f4422770a94f3
     GuidInternal: 
-    m_lastTime: -8585505431715047213
+    m_lastTime: -8585503754199313431
     List:
     - name: Main
       guid: 83c37d594846df4ea4a80e131010f525
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: fa6a1dc76c60d9438c3f84b29c138e82
     GuidInternal: 
-    m_lastTime: -8585505421678150313
+    m_lastTime: -8585503754206049079
     List:
     - name: Footsteps
       guid: 62f2df767682e3459e99e01bb61d96f9
@@ -419,7 +419,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 0d77b2238478fc4790ba9e713bea96a2
     GuidInternal: 
-    m_lastTime: -8585505596702711080
+    m_lastTime: -8585505567065002851
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -433,7 +433,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: be1b7f0cdee1244b9b76523ca0a7158c
     GuidInternal: 
-    m_lastTime: -8585505596696821726
+    m_lastTime: -8585505567041530885
     List: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
@@ -447,7 +447,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 81fccc4c33d0dc408cac936b2963eace
     GuidInternal: 
-    m_lastTime: -8585505596696781834
+    m_lastTime: -8585505567041500871
     List:
     - name: Footsteps
       guid: 3caccc3618d80f488f20afa0cb9d45bf
@@ -511,7 +511,7 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 1179a0709cb8e941a1d2de0ff8a5dfef
     GuidInternal: 
-    m_lastTime: -8585505431820268766
+    m_lastTime: -8585503754199163416
     List:
     - name: Marimba
       guid: ea53b2326ee57a4da8d183c784f75930
@@ -528,7 +528,7 @@ MonoBehaviour:
         guid: ea53b2326ee57a4da8d183c784f75930
       Path: Triggers\Default Work Unit\Marimba
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 01000000020000000300000005000000060000000700000008000000090000000a0000000b0000000f00000010000000110000001b000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
