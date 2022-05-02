@@ -3,33 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{21750381-A7F7-4353-8E35-38E739A28D7A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="telephonebell" ID="{10EE351D-D833-4B8C-84F2-C3BCAC8712BD}" ShortID="898147285">
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="telephonebell" ID="{9C8086D4-9283-47B8-97E1-2131D6AAE42F}">
-							<PropertyList>
-								<Property Name="FadeInDuration" Type="Real64" Value="0.0178764805414553"/>
-								<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
-							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>telephonebell.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1012794734"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="telephonebell" ID="{9C8086D4-9283-47B8-97E1-2131D6AAE42F}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Sound Name="ES_Forest Ambience 2 - SFX Producer" ID="{E6C72A6E-B5B1-4B7C-BE39-DED27C620895}" ShortID="875409537">
 					<ReferenceList>
 						<Reference Name="Conversion">
@@ -412,7 +385,7 @@
 				</Folder>
 				<Folder Name="BoomWhacker" ID="{9B55E256-1F9B-4CC0-A71A-E43C8F677D23}" ShortID="744276840">
 					<ChildrenList>
-						<Sound Name="Mmmmh" ID="{FD3362E4-8CA7-494D-AD5A-4F3CFF27C661}" ShortID="574108361">
+						<Sound Name="boomwhacker_C1_1" ID="{05ACD8C6-2E79-426E-B86E-3B4B8F59B384}" ShortID="323442131">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -422,17 +395,178 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="Mmmmh" ID="{83E8E50D-EC16-4E77-8441-D56A0AD0AE1C}">
+								<AudioFileSource Name="boomwhacker_C1_1" ID="{8142E5F8-4AE5-47E4-B061-175E9877EB70}">
 									<Language>SFX</Language>
-									<AudioFile>Mmmmh.wav</AudioFile>
+									<AudioFile>boomwhacker_C1_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1015516075"/>
+										<MediaID ID="893299049"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="Mmmmh" ID="{83E8E50D-EC16-4E77-8441-D56A0AD0AE1C}" Platform="Linked"/>
+								<ActiveSource Name="boomwhacker_C1_1" ID="{8142E5F8-4AE5-47E4-B061-175E9877EB70}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_D1_1" ID="{EB94B1B6-758E-4250-8A2C-49659251164B}" ShortID="118963252">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_D1_1" ID="{F8516DCB-25A5-4CDA-B85A-955BBD8CF959}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_D1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="162371181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_D1_1" ID="{F8516DCB-25A5-4CDA-B85A-955BBD8CF959}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_E1_1" ID="{D067AE94-52AF-4022-A52D-B1D3802A6200}" ShortID="465343179">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_E1_1" ID="{FA194AD8-6BF9-4E64-BE5A-B23B8C6DDB8F}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_E1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="263339574"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_E1_1" ID="{FA194AD8-6BF9-4E64-BE5A-B23B8C6DDB8F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_F1_1" ID="{D6567683-881A-4FDF-8EEB-ADFD0A2B5D04}" ShortID="561793137">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_F1_1" ID="{E0166E01-5184-45C7-A6FD-AC684265CB08}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_F1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="335013293"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_F1_1" ID="{E0166E01-5184-45C7-A6FD-AC684265CB08}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_G1_1" ID="{B04AB3AC-F606-42FD-9F87-654E4B9ACFE9}" ShortID="459750310">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_G1_1" ID="{2EDABE6B-C686-455A-8B27-42D5153F85AA}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_G1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477897202"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_G1_1" ID="{2EDABE6B-C686-455A-8B27-42D5153F85AA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_A1_1" ID="{9B93BFC2-0CFE-4D94-A27E-207D28512ED5}" ShortID="647115135">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_A1_1" ID="{1315B77C-4715-49A5-B45D-D40139A22B0C}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_A1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="341514206"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_A1_1" ID="{1315B77C-4715-49A5-B45D-D40139A22B0C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_B1_1" ID="{765B5938-7B89-4576-A46D-C40CACB0D550}" ShortID="736599559">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_B1_1" ID="{95D3ED0C-0018-4802-91B7-203E02049269}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_B1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="130206223"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_B1_1" ID="{95D3ED0C-0018-4802-91B7-203E02049269}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_C2_1" ID="{B72DCAC8-2FE5-4789-815D-C24880323823}" ShortID="278548988">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_C2_1" ID="{AB1D9243-E88B-4EB0-A53F-B5CACCD517D4}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_C2_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1032974019"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_C2_1" ID="{AB1D9243-E88B-4EB0-A53F-B5CACCD517D4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

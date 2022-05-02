@@ -25,7 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Folder Name="Instruments" ID="{496A9074-88CF-4384-9FFB-8E1FE2FF2878}" ShortID="666548553">
+				<Folder Name="Marimba" ID="{496A9074-88CF-4384-9FFB-8E1FE2FF2878}" ShortID="666548553">
 					<ChildrenList>
 						<Event Name="Marimba_01" ID="{5632C232-C711-476E-AE9D-1307FAB535E4}">
 							<ChildrenList>
@@ -159,12 +159,93 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="Mmmh" ID="{B76D1F7C-2471-46CF-BC9E-1D2135FB67E2}">
+					</ChildrenList>
+				</Folder>
+				<Folder Name="BoomWhacker" ID="{088E532B-8C5C-4428-9DCE-21A7013646D3}" ShortID="585865125">
+					<ChildrenList>
+						<Event Name="BoomWhacker_01" ID="{F3877933-0134-45D7-9503-BD1D360D8123}">
 							<ChildrenList>
-								<Action Name="" ID="{7CB6E32F-AC6D-4C63-AF24-4B2722602554}" ShortID="677630401">
+								<Action Name="" ID="{2CFDED08-1F92-41C1-92BF-ACD392186FDA}" ShortID="260648156">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Mmmmh" ID="{FD3362E4-8CA7-494D-AD5A-4F3CFF27C661}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+											<ObjectRef Name="boomwhacker_C1_1" ID="{05ACD8C6-2E79-426E-B86E-3B4B8F59B384}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BoomWhacker_02" ID="{B999FF1A-16A0-4986-8CC1-1BE07DA03E20}">
+							<ChildrenList>
+								<Action Name="" ID="{00471E83-06B1-4049-8283-E911DFBB407F}" ShortID="978032119">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="boomwhacker_D1_1" ID="{EB94B1B6-758E-4250-8A2C-49659251164B}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BoomWhacker_03" ID="{028354EC-7710-4004-819B-CF720807757C}">
+							<ChildrenList>
+								<Action Name="" ID="{D3754104-1456-4B37-B5CB-774977D93259}" ShortID="369449016">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="boomwhacker_E1_1" ID="{D067AE94-52AF-4022-A52D-B1D3802A6200}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BoomWhacker_04" ID="{90FFA95B-17BD-48EB-A09B-9B3DAEDF8368}">
+							<ChildrenList>
+								<Action Name="" ID="{0380B16E-B564-40EC-9232-2755635013BF}" ShortID="979712574">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="boomwhacker_F1_1" ID="{D6567683-881A-4FDF-8EEB-ADFD0A2B5D04}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BoomWhacker_05" ID="{3B0B3547-C2DC-4EC6-A4A5-6D082BAE747A}">
+							<ChildrenList>
+								<Action Name="" ID="{4120D0F6-D7AB-445E-9702-6A1883414B3A}" ShortID="477656718">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="boomwhacker_G1_1" ID="{B04AB3AC-F606-42FD-9F87-654E4B9ACFE9}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BoomWhacker_06" ID="{58649D6B-9FEC-4491-8DC7-D67D1CE5AAE1}">
+							<ChildrenList>
+								<Action Name="" ID="{F3EA3270-E667-48FF-A7CE-37455F05374F}" ShortID="7996352">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="boomwhacker_A1_1" ID="{9B93BFC2-0CFE-4D94-A27E-207D28512ED5}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BoomWhacker_07" ID="{7BD40329-2391-4F9E-ABC1-135C60BA1797}">
+							<ChildrenList>
+								<Action Name="" ID="{DD3DB204-89A2-46BD-9EB5-1CCA711F9B24}" ShortID="18536552">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="boomwhacker_B1_1" ID="{765B5938-7B89-4576-A46D-C40CACB0D550}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="BoomWhacker_08" ID="{A432EC6E-E1EF-4633-A2B1-66D47DCE1DAE}">
+							<ChildrenList>
+								<Action Name="" ID="{720C171F-55ED-411F-8C37-645FD80CFE39}" ShortID="918489654">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="boomwhacker_C2_1" ID="{B72DCAC8-2FE5-4789-815D-C24880323823}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

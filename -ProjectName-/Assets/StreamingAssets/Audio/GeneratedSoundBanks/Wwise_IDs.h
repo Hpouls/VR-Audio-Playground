@@ -13,6 +13,14 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BOOMWHACKER_01 = 3380606233U;
+        static const AkUniqueID BOOMWHACKER_02 = 3380606234U;
+        static const AkUniqueID BOOMWHACKER_03 = 3380606235U;
+        static const AkUniqueID BOOMWHACKER_04 = 3380606236U;
+        static const AkUniqueID BOOMWHACKER_05 = 3380606237U;
+        static const AkUniqueID BOOMWHACKER_06 = 3380606238U;
+        static const AkUniqueID BOOMWHACKER_07 = 3380606239U;
+        static const AkUniqueID BOOMWHACKER_08 = 3380606224U;
         static const AkUniqueID FORESTAMBIENCE_EVENT = 3787218347U;
         static const AkUniqueID MARIMBA_01 = 2425325544U;
         static const AkUniqueID MARIMBA_02 = 2425325547U;
@@ -26,28 +34,7 @@ namespace AK
         static const AkUniqueID MARIMBA_10 = 2408547958U;
         static const AkUniqueID MARIMBA_11 = 2408547959U;
         static const AkUniqueID MARIMBA_12 = 2408547956U;
-        static const AkUniqueID MMMH = 2558606316U;
     } // namespace EVENTS
-
-    namespace SWITCHES
-    {
-        namespace FOOTSTEPS
-        {
-            static const AkUniqueID GROUP = 2385628198U;
-
-            namespace SWITCH
-            {
-                static const AkUniqueID DIRT = 2195636714U;
-                static const AkUniqueID STONE = 1216965916U;
-            } // namespace SWITCH
-        } // namespace FOOTSTEPS
-
-    } // namespace SWITCHES
-
-    namespace TRIGGERS
-    {
-        static const AkUniqueID MARIMBA = 3091781674U;
-    } // namespace TRIGGERS
 
     namespace BANKS
     {

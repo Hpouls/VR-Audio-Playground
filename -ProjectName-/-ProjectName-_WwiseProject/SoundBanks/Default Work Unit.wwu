@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{597DC383-4648-4EDF-A4A8-0E131010F525}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Instruments" ID="{496A9074-88CF-4384-9FFB-8E1FE2FF2878}" WorkUnitID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Marimba" ID="{496A9074-88CF-4384-9FFB-8E1FE2FF2878}" WorkUnitID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="BoomWhacker" ID="{088E532B-8C5C-4428-9DCE-21A7013646D3}" WorkUnitID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ForestAmbience_event" ID="{3181064D-6C2A-4CD1-A367-C1F782648660}" WorkUnitID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
