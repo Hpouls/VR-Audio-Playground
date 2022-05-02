@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 082fc481c841f3640a9dccf89ece32cc, type: 3}
+  m_Name: 58649D6B-9FEC-4491-8DC7-D67D1CE5AAE1
+  m_EditorClassIdentifier: 
+  objectName: BoomWhacker_06
+  id: 3380606238
+  guid: 58649D6B-9FEC-4491-8DC7-D67D1CE5AAE1

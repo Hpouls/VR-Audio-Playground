@@ -21,6 +21,14 @@ namespace AK
         static const AkUniqueID BOOMWHACKER_06 = 3380606238U;
         static const AkUniqueID BOOMWHACKER_07 = 3380606239U;
         static const AkUniqueID BOOMWHACKER_08 = 3380606224U;
+        static const AkUniqueID BOOMWHACKER_MALLET_01 = 2363352373U;
+        static const AkUniqueID BOOMWHACKER_MALLET_02 = 2363352374U;
+        static const AkUniqueID BOOMWHACKER_MALLET_03 = 2363352375U;
+        static const AkUniqueID BOOMWHACKER_MALLET_04 = 2363352368U;
+        static const AkUniqueID BOOMWHACKER_MALLET_05 = 2363352369U;
+        static const AkUniqueID BOOMWHACKER_MALLET_06 = 2363352370U;
+        static const AkUniqueID BOOMWHACKER_MALLET_07 = 2363352371U;
+        static const AkUniqueID BOOMWHACKER_MALLET_08 = 2363352380U;
         static const AkUniqueID FORESTAMBIENCE_EVENT = 3787218347U;
         static const AkUniqueID MARIMBA_01 = 2425325544U;
         static const AkUniqueID MARIMBA_02 = 2425325547U;
@@ -34,6 +42,18 @@ namespace AK
         static const AkUniqueID MARIMBA_10 = 2408547958U;
         static const AkUniqueID MARIMBA_11 = 2408547959U;
         static const AkUniqueID MARIMBA_12 = 2408547956U;
+        static const AkUniqueID MARIMBA_MALLET_01 = 1771210286U;
+        static const AkUniqueID MARIMBA_MALLET_02 = 1771210285U;
+        static const AkUniqueID MARIMBA_MALLET_03 = 1771210284U;
+        static const AkUniqueID MARIMBA_MALLET_04 = 1771210283U;
+        static const AkUniqueID MARIMBA_MALLET_05 = 1771210282U;
+        static const AkUniqueID MARIMBA_MALLET_06 = 1771210281U;
+        static const AkUniqueID MARIMBA_MALLET_07 = 1771210280U;
+        static const AkUniqueID MARIMBA_MALLET_08 = 1771210279U;
+        static const AkUniqueID MARIMBA_MALLET_09 = 1771210278U;
+        static const AkUniqueID MARIMBA_MALLET_10 = 1754432700U;
+        static const AkUniqueID MARIMBA_MALLET_11 = 1754432701U;
+        static const AkUniqueID MARIMBA_MALLET_12 = 1754432702U;
     } // namespace EVENTS
 
     namespace BANKS

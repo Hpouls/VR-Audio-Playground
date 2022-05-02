@@ -33,7 +33,7 @@ public class tangColourChange : MonoBehaviour
 
         if (col.gameObject.tag == "Stick")
         {
-            rend.sharedMaterial = material[2];
+            rend.sharedMaterial = material[1];
             StickSound.Post(gameObject);
         }
 

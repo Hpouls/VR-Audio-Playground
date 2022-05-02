@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{21750381-A7F7-4353-8E35-38E739A28D7A}" PersistMode="Standalone">
 			<ChildrenList>
 				<Sound Name="ES_Forest Ambience 2 - SFX Producer" ID="{E6C72A6E-B5B1-4B7C-BE39-DED27C620895}" ShortID="875409537">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -28,14 +31,7 @@
 				</Sound>
 				<Folder Name="Marimba" ID="{5CEC8936-3210-4474-9406-A6140E0F3BD7}" ShortID="357580215">
 					<ChildrenList>
-						<Sound Name="560674__gamedrix__b1" ID="{4A674C82-16F7-4FA3-B1B3-4299259098A3}" ShortID="614374452">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>500</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_a1_1" ID="{11F1AA0B-7728-4EAD-8874-0E5C2F500349}" ShortID="946286792">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -45,27 +41,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{7D433B35-75B0-4761-BAE4-EB6E66BF5D63}">
+								<AudioFileSource Name="marimba_a1_1" ID="{012F0ACE-2F60-4C0D-93DF-AD312578E0A7}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_a1_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="610314272"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{7D433B35-75B0-4761-BAE4-EB6E66BF5D63}" Platform="Linked"/>
+								<ActiveSource Name="marimba_a1_1" ID="{012F0ACE-2F60-4C0D-93DF-AD312578E0A7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_01" ID="{8370CF93-96C9-49BC-A4FE-B6C3D0AC6405}" ShortID="416691630">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>400</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_b1_1" ID="{DCAC6080-2839-4B78-ABD1-535584DF2FD1}" ShortID="423947780">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -75,27 +64,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{DFD2F838-7799-43DB-BD9B-9D26C5F3CE01}">
+								<AudioFileSource Name="marimba_b1_1" ID="{7C33896E-4A24-4F66-893C-5FDFCAFC9A8F}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_b1_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="579715613"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{DFD2F838-7799-43DB-BD9B-9D26C5F3CE01}" Platform="Linked"/>
+								<ActiveSource Name="marimba_b1_1" ID="{7C33896E-4A24-4F66-893C-5FDFCAFC9A8F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_02" ID="{7BFC404C-3FF5-4509-B97A-538A7B39EE31}" ShortID="177834511">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>300</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_c1_1" ID="{659B8EE0-C8E2-4A98-8C35-48DD580EBD6F}" ShortID="208885494">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -105,27 +87,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{FC4DB6A9-3B7E-4EEB-B6A6-6D65F93D63D4}">
+								<AudioFileSource Name="marimba_c1_1" ID="{3A1CA95B-B078-42EC-BC55-93BB44353597}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_c1_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="823887300"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{FC4DB6A9-3B7E-4EEB-B6A6-6D65F93D63D4}" Platform="Linked"/>
+								<ActiveSource Name="marimba_c1_1" ID="{3A1CA95B-B078-42EC-BC55-93BB44353597}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_03" ID="{0A9E0F12-1FE5-415D-BF17-EE0C87FFE734}" ShortID="636545417">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>200</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_c2_1" ID="{5132F479-6798-4338-8054-40F75843F3B4}" ShortID="382716096">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -135,27 +110,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{A377A3F4-DAA1-417A-8120-335580975EC7}">
+								<AudioFileSource Name="marimba_c2_1" ID="{5642DF26-A73F-46CC-A0F1-6C442186E901}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_c2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="195933173"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{A377A3F4-DAA1-417A-8120-335580975EC7}" Platform="Linked"/>
+								<ActiveSource Name="marimba_c2_1" ID="{5642DF26-A73F-46CC-A0F1-6C442186E901}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_04" ID="{D7EFD387-D7A1-435B-9AD3-6FD697EAC818}" ShortID="305411479">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>100</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_d1_1" ID="{8C3D2689-99BF-4DAF-8D65-FB2D1966D536}" ShortID="981233086">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -165,20 +133,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{CEB74CC4-FA0F-41ED-BC7B-FB0BB42C423C}">
+								<AudioFileSource Name="marimba_d1_1" ID="{D0E3AE48-C57D-482C-9812-ED42463A81C4}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_d1_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="340729439"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{CEB74CC4-FA0F-41ED-BC7B-FB0BB42C423C}" Platform="Linked"/>
+								<ActiveSource Name="marimba_d1_1" ID="{D0E3AE48-C57D-482C-9812-ED42463A81C4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_05" ID="{ACB95CD0-21B8-4BF5-B3FB-AF451010C8D1}" ShortID="1058642225">
+						<Sound Name="marimba_d2_1" ID="{B3F466F5-7185-4C4A-9B7D-C7647EA2381A}" ShortID="45849001">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -188,27 +156,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{E6D289BE-C7B5-4DBB-ADFA-4452F7637AA3}">
+								<AudioFileSource Name="marimba_d2_1" ID="{EE4D4959-0909-46AC-8F49-3C31AFB83D24}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_d2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="260673542"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{E6D289BE-C7B5-4DBB-ADFA-4452F7637AA3}" Platform="Linked"/>
+								<ActiveSource Name="marimba_d2_1" ID="{EE4D4959-0909-46AC-8F49-3C31AFB83D24}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_06" ID="{4F7E9FCC-644B-4DD3-8740-3B58933C9360}" ShortID="756430297">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-100</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_e1_1" ID="{0CF7BED1-97FF-40DA-8A4F-422583CAF0C8}" ShortID="826263532">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -218,27 +179,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{A7A25F5F-9D1E-4144-912D-DF34AD0123D8}">
+								<AudioFileSource Name="marimba_e1_1" ID="{E63D1E18-8CD4-4559-AC56-0890FF627CAA}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_e1_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="682839942"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{A7A25F5F-9D1E-4144-912D-DF34AD0123D8}" Platform="Linked"/>
+								<ActiveSource Name="marimba_e1_1" ID="{E63D1E18-8CD4-4559-AC56-0890FF627CAA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_07" ID="{C135705E-DEE3-410C-9569-EE292FA422C6}" ShortID="313433333">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-200</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_e2_1" ID="{5D55E373-9837-4E4E-AF54-1D4E1AB7C3AC}" ShortID="669200255">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -248,27 +202,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{E954E305-953B-4758-9CC7-EBC9AC488BE0}">
+								<AudioFileSource Name="marimba_e2_1" ID="{92657DEB-0F2D-4594-A6E3-A6AB782E2B19}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_e2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="270918972"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{E954E305-953B-4758-9CC7-EBC9AC488BE0}" Platform="Linked"/>
+								<ActiveSource Name="marimba_e2_1" ID="{92657DEB-0F2D-4594-A6E3-A6AB782E2B19}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_08" ID="{406A3A21-3ACE-435C-93CD-8842E276A3F0}" ShortID="445554174">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-300</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_f1_1" ID="{7A520758-0A82-4415-8147-1A038B8904A8}" ShortID="642385259">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -278,27 +225,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{459C9F46-F6FF-4C71-8F1A-A9D8B77F8F4A}">
+								<AudioFileSource Name="marimba_f1_1" ID="{86DBF5FC-7A22-4ECD-B2FB-C5A4FA8476E6}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_f1_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="270431304"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{459C9F46-F6FF-4C71-8F1A-A9D8B77F8F4A}" Platform="Linked"/>
+								<ActiveSource Name="marimba_f1_1" ID="{86DBF5FC-7A22-4ECD-B2FB-C5A4FA8476E6}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_09" ID="{7F6A5A0B-A8FA-4FF6-B328-B3B67E2BE5EE}" ShortID="737060602">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-400</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_f2_1" ID="{68867056-33FD-4DE5-8926-B40D704A024F}" ShortID="21541386">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -308,27 +248,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{44E97CE6-C202-437A-81DE-9DB5CC9E67E6}">
+								<AudioFileSource Name="marimba_f2_1" ID="{150083EF-1C5C-4F38-934C-E3AE3D62F89A}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_f2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="675793167"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{44E97CE6-C202-437A-81DE-9DB5CC9E67E6}" Platform="Linked"/>
+								<ActiveSource Name="marimba_f2_1" ID="{150083EF-1C5C-4F38-934C-E3AE3D62F89A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_10" ID="{AE2B5ACC-EC72-49BD-BBB7-2BA5DD1011A6}" ShortID="222260214">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-500</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_g1_1" ID="{B86A5AA6-D1C0-4D49-B4F7-3FCBED096BEE}" ShortID="154488321">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -338,27 +271,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{0CD29C49-C3D0-4853-A9C1-91B782D67A20}">
+								<AudioFileSource Name="marimba_g1_1" ID="{5CEF4873-EFD9-4AD6-8244-5556A56F2795}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_g1_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="1047823934"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{0CD29C49-C3D0-4853-A9C1-91B782D67A20}" Platform="Linked"/>
+								<ActiveSource Name="marimba_g1_1" ID="{5CEF4873-EFD9-4AD6-8244-5556A56F2795}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="560674__gamedrix__b1_11" ID="{A2969281-B825-4197-99E2-F10553935DFA}" ShortID="1032037021">
-							<PropertyList>
-								<Property Name="Pitch" Type="int32">
-									<ValueList>
-										<Value>-600</Value>
-									</ValueList>
-								</Property>
-							</PropertyList>
+						<Sound Name="marimba_g2_1" ID="{2E6D5E26-AEFA-4D14-A93A-F27377D16EB5}" ShortID="397354126">
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
@@ -368,17 +294,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="560674__gamedrix__b1" ID="{625FCA4E-A7BA-4AF0-A827-80A0528C6B41}">
+								<AudioFileSource Name="marimba_g2_1" ID="{BACD5B79-E063-401E-8857-71C837F792B9}">
 									<Language>SFX</Language>
-									<AudioFile>560674__gamedrix__b1.wav</AudioFile>
+									<AudioFile>marimba_g2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="813049334"/>
+										<MediaID ID="538411453"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="560674__gamedrix__b1" ID="{625FCA4E-A7BA-4AF0-A827-80A0528C6B41}" Platform="Linked"/>
+								<ActiveSource Name="marimba_g2_1" ID="{BACD5B79-E063-401E-8857-71C837F792B9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -567,6 +493,694 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="boomwhacker_C2_1" ID="{AB1D9243-E88B-4EB0-A53F-B5CACCD517D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Marimba_Mallet" ID="{BCCD22AA-651F-4B12-9A91-0B66AE7EE323}" ShortID="1022987906">
+					<ChildrenList>
+						<Sound Name="marimba_d2_1" ID="{A989D590-6EF8-4C06-BB0D-58C3E80F4B8D}" ShortID="301896599">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_d2_1" ID="{E83ED312-CEED-42DE-86B4-C18B5AFCA4C6}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_d2_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="260673542"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_d2_1" ID="{E83ED312-CEED-42DE-86B4-C18B5AFCA4C6}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_a1_1" ID="{3FEF1CCD-BA3B-46AF-80F3-9302137F03F7}" ShortID="307496570">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_a1_1" ID="{EDEDAE86-4A2A-4854-AFAB-AA4842D7F042}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_a1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="610314272"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_a1_1" ID="{EDEDAE86-4A2A-4854-AFAB-AA4842D7F042}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_e1_1" ID="{3E2A1585-7005-488A-8BAF-34172F370EF7}" ShortID="222606425">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_e1_1" ID="{AB75DD01-5FFC-4388-B5E0-72277EC57211}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_e1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="682839942"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_e1_1" ID="{AB75DD01-5FFC-4388-B5E0-72277EC57211}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_c2_1" ID="{2B7DBECB-5EFF-4D92-8F9B-75D1277F7FEE}" ShortID="618001627">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_c2_1" ID="{DA40FEB9-EFC4-402A-9EBC-3E7F7F39C99D}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_c2_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="195933173"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_c2_1" ID="{DA40FEB9-EFC4-402A-9EBC-3E7F7F39C99D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_f1_1" ID="{EC9D8FA1-3B75-4598-B86E-4910B6AFB85C}" ShortID="788768191">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_f1_1" ID="{5C43F8CC-3DEA-4668-B60C-C6F79E756BD0}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_f1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="270431304"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_f1_1" ID="{5C43F8CC-3DEA-4668-B60C-C6F79E756BD0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_f2_1" ID="{46ABAC1A-FF98-4EA2-AEF6-290C624F14E3}" ShortID="744490289">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_f2_1" ID="{FB398E33-9740-48FE-970B-CDDA613E656E}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_f2_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="675793167"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_f2_1" ID="{FB398E33-9740-48FE-970B-CDDA613E656E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_b1_1" ID="{AAEDF63B-B33F-44E0-9618-F11D31689BED}" ShortID="345073184">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_b1_1" ID="{E27AF205-E2C8-429A-9E97-CE78910B504F}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_b1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="579715613"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_b1_1" ID="{E27AF205-E2C8-429A-9E97-CE78910B504F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_c1_1" ID="{2EA867FD-178E-4417-A2DB-1EA5AA4841B5}" ShortID="454531098">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_c1_1" ID="{442D5479-6215-4A81-A774-BC6A1FB0BDE7}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_c1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="823887300"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_c1_1" ID="{442D5479-6215-4A81-A774-BC6A1FB0BDE7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_g2_1" ID="{223B691A-9ED6-4CC8-B07A-B06049494FDD}" ShortID="187462188">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_g2_1" ID="{75681DD4-F1CB-4539-AA8D-059D6A58E469}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_g2_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="538411453"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_g2_1" ID="{75681DD4-F1CB-4539-AA8D-059D6A58E469}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_d1_1" ID="{3C58C401-51C6-4670-8AF7-5348AEBBD60D}" ShortID="28020989">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_d1_1" ID="{FFE25900-CF33-4DB6-9F04-D7417CC6DB00}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_d1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="340729439"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_d1_1" ID="{FFE25900-CF33-4DB6-9F04-D7417CC6DB00}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_e2_1" ID="{2F37E95B-1C47-4EF3-B909-0634B468E767}" ShortID="1061361346">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_e2_1" ID="{1851A488-0AC2-487D-A26A-E09261E1E9B7}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_e2_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="270918972"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_e2_1" ID="{1851A488-0AC2-487D-A26A-E09261E1E9B7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_g1_1" ID="{1BCA82E9-EDCD-4662-8EB6-D10101C218E4}" ShortID="150275095">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>74</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_g1_1" ID="{785CA621-A9EA-4E23-A469-9DFCCBF26D4D}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_g1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1047823934"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_g1_1" ID="{785CA621-A9EA-4E23-A469-9DFCCBF26D4D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="BoomWhacker_Mallet" ID="{E65898D3-DDA5-406B-B7D4-D338B6757915}" ShortID="593278980">
+					<ChildrenList>
+						<Sound Name="boomwhacker_C1_1" ID="{FED28A17-2F3E-42F0-A1AE-7E48A8067EF3}" ShortID="705830387">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_C1_1" ID="{FE085865-027D-4EB4-AA0C-0FAFB1282F3D}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_C1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="893299049"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_C1_1" ID="{FE085865-027D-4EB4-AA0C-0FAFB1282F3D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_D1_1" ID="{519E7829-A3A2-49FA-B677-149D59E3DA12}" ShortID="259303198">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_D1_1" ID="{CE604977-0AF1-45FB-B8C6-6A4D34205FA1}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_D1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="162371181"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_D1_1" ID="{CE604977-0AF1-45FB-B8C6-6A4D34205FA1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_E1_1" ID="{166C5B41-4162-4C3B-8919-15794AE73901}" ShortID="799941936">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_E1_1" ID="{D2280B49-9266-4F90-A0A5-C12F962919AF}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_E1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="263339574"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_E1_1" ID="{D2280B49-9266-4F90-A0A5-C12F962919AF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_F1_1" ID="{273BB132-AD1F-4504-A7D8-EAC181D9F5D3}" ShortID="716633141">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_F1_1" ID="{DAD07FBB-0DD3-4558-A5E5-68E2D103F9CE}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_F1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="335013293"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_F1_1" ID="{DAD07FBB-0DD3-4558-A5E5-68E2D103F9CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_G1_1" ID="{F08804C7-6FD6-44FB-A0C5-9B998BA288AB}" ShortID="511485154">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_G1_1" ID="{B82888E1-BBAB-43E5-9B31-9DA8566AFD4E}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_G1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="477897202"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_G1_1" ID="{B82888E1-BBAB-43E5-9B31-9DA8566AFD4E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_A1_1" ID="{99F9C65F-169A-4C8A-88DF-2EA09A71478A}" ShortID="173727926">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_A1_1" ID="{F3BE751C-1635-48DF-A1D9-CE5E4E883E69}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_A1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="341514206"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_A1_1" ID="{F3BE751C-1635-48DF-A1D9-CE5E4E883E69}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_B1_1" ID="{5F822730-EB52-4D73-8934-5AED44840722}" ShortID="986135188">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_B1_1" ID="{C22E162D-3B7F-491C-AED8-9D10513BF9C0}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_B1_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="130206223"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_B1_1" ID="{C22E162D-3B7F-491C-AED8-9D10513BF9C0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="boomwhacker_C2_1" ID="{920C274C-4EE5-4D1D-BB81-CF771D55B41F}" ShortID="214864835">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OutputBusVolume" Type="Real64">
+									<ValueList>
+										<Value>7</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="boomwhacker_C2_1" ID="{12270071-5129-4831-8D00-9EEDF247653F}">
+									<Language>SFX</Language>
+									<AudioFile>boomwhacker_C2_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1032974019"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="boomwhacker_C2_1" ID="{12270071-5129-4831-8D00-9EEDF247653F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

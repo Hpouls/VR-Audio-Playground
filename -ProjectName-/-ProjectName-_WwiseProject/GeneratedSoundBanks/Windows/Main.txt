@@ -1,35 +1,66 @@
 Event	ID	Name			Wwise Object Path	Notes
-	2408547956	Marimba_12			\Default Work Unit\Marimba\Marimba_12	
-	2408547958	Marimba_10			\Default Work Unit\Marimba\Marimba_10	
-	2408547959	Marimba_11			\Default Work Unit\Marimba\Marimba_11	
-	2425325536	Marimba_09			\Default Work Unit\Marimba\Marimba_09	
-	2425325537	Marimba_08			\Default Work Unit\Marimba\Marimba_08	
-	2425325544	Marimba_01			\Default Work Unit\Marimba\Marimba_01	
-	2425325546	Marimba_03			\Default Work Unit\Marimba\Marimba_03	
-	2425325547	Marimba_02			\Default Work Unit\Marimba\Marimba_02	
-	2425325548	Marimba_05			\Default Work Unit\Marimba\Marimba_05	
-	2425325549	Marimba_04			\Default Work Unit\Marimba\Marimba_04	
-	2425325550	Marimba_07			\Default Work Unit\Marimba\Marimba_07	
-	2425325551	Marimba_06			\Default Work Unit\Marimba\Marimba_06	
-	3380606224	BoomWhacker_08			\Default Work Unit\BoomWhacker\BoomWhacker_08	
-	3380606233	BoomWhacker_01			\Default Work Unit\BoomWhacker\BoomWhacker_01	
-	3380606234	BoomWhacker_02			\Default Work Unit\BoomWhacker\BoomWhacker_02	
-	3380606235	BoomWhacker_03			\Default Work Unit\BoomWhacker\BoomWhacker_03	
-	3380606236	BoomWhacker_04			\Default Work Unit\BoomWhacker\BoomWhacker_04	
-	3380606237	BoomWhacker_05			\Default Work Unit\BoomWhacker\BoomWhacker_05	
-	3380606238	BoomWhacker_06			\Default Work Unit\BoomWhacker\BoomWhacker_06	
-	3380606239	BoomWhacker_07			\Default Work Unit\BoomWhacker\BoomWhacker_07	
+	1754432700	Marimba_Mallet_10			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_10	
+	1754432701	Marimba_Mallet_11			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_11	
+	1754432702	Marimba_Mallet_12			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_12	
+	1771210278	Marimba_Mallet_09			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_09	
+	1771210279	Marimba_Mallet_08			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_08	
+	1771210280	Marimba_Mallet_07			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_07	
+	1771210281	Marimba_Mallet_06			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_06	
+	1771210282	Marimba_Mallet_05			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_05	
+	1771210283	Marimba_Mallet_04			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_04	
+	1771210284	Marimba_Mallet_03			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_03	
+	1771210285	Marimba_Mallet_02			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_02	
+	1771210286	Marimba_Mallet_01			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_01	
+	2363352368	BoomWhacker_Mallet_04			\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_04	
+	2363352369	BoomWhacker_Mallet_05			\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_05	
+	2363352370	BoomWhacker_Mallet_06			\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_06	
+	2363352371	BoomWhacker_Mallet_07			\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_07	
+	2363352373	BoomWhacker_Mallet_01			\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_01	
+	2363352374	BoomWhacker_Mallet_02			\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_02	
+	2363352375	BoomWhacker_Mallet_03			\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_03	
+	2363352380	BoomWhacker_Mallet_08			\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_08	
+	2408547956	Marimba_12			\Default Work Unit\Marimba_Stick\Marimba_12	
+	2408547958	Marimba_10			\Default Work Unit\Marimba_Stick\Marimba_10	
+	2408547959	Marimba_11			\Default Work Unit\Marimba_Stick\Marimba_11	
+	2425325536	Marimba_09			\Default Work Unit\Marimba_Stick\Marimba_09	
+	2425325537	Marimba_08			\Default Work Unit\Marimba_Stick\Marimba_08	
+	2425325544	Marimba_01			\Default Work Unit\Marimba_Stick\Marimba_01	
+	2425325546	Marimba_03			\Default Work Unit\Marimba_Stick\Marimba_03	
+	2425325547	Marimba_02			\Default Work Unit\Marimba_Stick\Marimba_02	
+	2425325548	Marimba_05			\Default Work Unit\Marimba_Stick\Marimba_05	
+	2425325549	Marimba_04			\Default Work Unit\Marimba_Stick\Marimba_04	
+	2425325550	Marimba_07			\Default Work Unit\Marimba_Stick\Marimba_07	
+	2425325551	Marimba_06			\Default Work Unit\Marimba_Stick\Marimba_06	
+	3380606224	BoomWhacker_08			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_08	
+	3380606233	BoomWhacker_01			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_01	
+	3380606234	BoomWhacker_02			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_02	
+	3380606235	BoomWhacker_03			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_03	
+	3380606236	BoomWhacker_04			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_04	
+	3380606237	BoomWhacker_05			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_05	
+	3380606238	BoomWhacker_06			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_06	
+	3380606239	BoomWhacker_07			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_07	
 	3787218347	ForestAmbience_event			\Default Work Unit\ForestAmbience_event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	130206223	boomwhacker_B1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_B1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_B1_1		786576
 	162371181	boomwhacker_D1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_D1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_D1_1		1310864
-	263339574	boomwhacker_E1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_E1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_E1_1		1179792
-	335013293	boomwhacker_F1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_F1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_F1_1		1048720
+	195933173	marimba_c2_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_c2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_c2_1		524432
+	260673542	marimba_d2_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_d2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_d2_1		524432
+	263339574	boomwhacker_E1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_E1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker_Mallet\boomwhacker_E1_1		1179792
+	270431304	marimba_f1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_f1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_f1_1		524432
+	270918972	marimba_e2_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_e2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_e2_1		655504
+	335013293	boomwhacker_F1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_F1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker_Mallet\boomwhacker_F1_1		1048720
+	340729439	marimba_d1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_d1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_d1_1		524432
 	341514206	boomwhacker_A1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_A1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_A1_1		917648
 	477897202	boomwhacker_G1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_G1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_G1_1		1048720
-	813049334	560674__gamedrix__b1_08	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\560674__gamedrix__b1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\560674__gamedrix__b1_08		44164
-	893299049	boomwhacker_C1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_C1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_C1_1		1441936
+	538411453	marimba_g2_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_g2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_g2_1		524432
+	579715613	marimba_b1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_b1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_b1_1		524432
+	610314272	marimba_a1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_a1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_a1_1		655504
+	675793167	marimba_f2_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_f2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_f2_1		655504
+	682839942	marimba_e1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_e1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_e1_1		524432
+	823887300	marimba_c1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_c1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_c1_1		655504
+	893299049	boomwhacker_C1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_C1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker_Mallet\boomwhacker_C1_1		1441936
 	1032974019	boomwhacker_C2_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\boomwhacker_C2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_C2_1		786576
-	1039888937	ES_Forest Ambience 2 - SFX Producer	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\ES_Forest Ambience 2 - SFX Producer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ES_Forest Ambience 2 - SFX Producer		10893376
+	1039888937	ES_Forest Ambience 2 - SFX Producer	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\ES_Forest Ambience 2 - SFX Producer_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\ES_Forest Ambience 2 - SFX Producer		10893376
+	1047823934	marimba_g1_1	C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Windows\SFX\marimba_g1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_g1_1		393360
 
