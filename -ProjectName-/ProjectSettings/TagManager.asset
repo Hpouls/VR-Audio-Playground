@@ -6,6 +6,8 @@ TagManager:
   tags:
   - SoundMaker
   - Tool
+  - Mallet
+  - Stick
   layers:
   - Default
   - TransparentFX

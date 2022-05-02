@@ -9,7 +9,7 @@ public class tangColourChange : MonoBehaviour
     //public bool switchMaterial = true;
     public int i;
 
-    public AK.Wwise.Event SomeSound;
+    public AK.Wwise.Event MalletSound, StickSound;
 
     // Start is called before the first frame update
     void Start()
@@ -23,10 +23,20 @@ public class tangColourChange : MonoBehaviour
     
     void OnCollisionEnter(Collision col)
     {
-        rend.sharedMaterial = material[1];
-
-        SomeSound.Post(gameObject);
         
+
+        if(col.gameObject.tag == "Mallet")
+        {   
+            rend.sharedMaterial = material[1];
+            MalletSound.Post(gameObject);
+        }
+
+        if (col.gameObject.tag == "Stick")
+        {
+            rend.sharedMaterial = material[2];
+            StickSound.Post(gameObject);
+        }
+
     }
 
     void OnCollisionExit(Collision col)
