@@ -3,32 +3,6 @@
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{21750381-A7F7-4353-8E35-38E739A28D7A}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="ES_Forest Ambience 2 - SFX Producer" ID="{E6C72A6E-B5B1-4B7C-BE39-DED27C620895}" ShortID="875409537">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="ES_Forest Ambience 2 - SFX Producer" ID="{73E2FB2A-6AF5-4D5D-BFAD-74AD5030A19D}">
-							<Language>SFX</Language>
-							<AudioFile>ES_Forest Ambience 2 - SFX Producer.wav</AudioFile>
-							<MediaIDList>
-								<MediaID ID="1039888937"/>
-							</MediaIDList>
-						</AudioFileSource>
-					</ChildrenList>
-					<ObjectLists/>
-					<ActiveSourceList>
-						<ActiveSource Name="ES_Forest Ambience 2 - SFX Producer" ID="{73E2FB2A-6AF5-4D5D-BFAD-74AD5030A19D}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
 				<Folder Name="Marimba" ID="{5CEC8936-3210-4474-9406-A6140E0F3BD7}" ShortID="357580215">
 					<ChildrenList>
 						<Sound Name="marimba_a1_1" ID="{11F1AA0B-7728-4EAD-8874-0E5C2F500349}" ShortID="946286792">
@@ -1181,6 +1155,66 @@
 							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="boomwhacker_C2_1" ID="{12270071-5129-4831-8D00-9EEDF247653F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{FDBF6D65-F901-45D3-A3E9-498BFC69FCB5}" ShortID="133087296">
+					<ChildrenList>
+						<Sound Name="ES_Forest Ambience 2 - SFX Producer" ID="{E6C72A6E-B5B1-4B7C-BE39-DED27C620895}" ShortID="875409537">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ES_Forest Ambience 2 - SFX Producer" ID="{73E2FB2A-6AF5-4D5D-BFAD-74AD5030A19D}">
+									<Language>SFX</Language>
+									<AudioFile>ES_Forest Ambience 2 - SFX Producer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1039888937"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ES_Forest Ambience 2 - SFX Producer" ID="{73E2FB2A-6AF5-4D5D-BFAD-74AD5030A19D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="ES_Fire Wood Crackle - SFX Producer" ID="{DB568910-D8B9-4891-B432-265C0AC4465D}" ShortID="267018543">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="test" ID="{D5BD7053-1C39-4E6F-9DAF-3B87B62C89D7}" WorkUnitID="{67AD067D-3404-4C47-9BAF-63B2A3B7B624}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="ES_Fire Wood Crackle - SFX Producer" ID="{504AFCF3-CEF2-4CFB-B019-4F09E67AD9C7}">
+									<Language>SFX</Language>
+									<AudioFile>ES_Fire Wood Crackle - SFX Producer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="602536372"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="ES_Fire Wood Crackle - SFX Producer" ID="{504AFCF3-CEF2-4CFB-B019-4F09E67AD9C7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

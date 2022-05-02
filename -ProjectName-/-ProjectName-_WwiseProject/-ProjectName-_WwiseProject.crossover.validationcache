@@ -2,10 +2,10 @@
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1651489444" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\States\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1650627632" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1651494948" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Queries\Factory Queries.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Queries\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Presets\Factory Spatial Audio.wwu" DateLow="1650626829" DateHigh="0"/>
@@ -16,7 +16,7 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Events\Default Work Unit.wwu" DateLow="1650627632" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Events\Default Work Unit.wwu" DateLow="1651494947" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Effects\Factory Effects.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
@@ -25,7 +25,7 @@
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
 	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1650626829" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1650627632" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\-ProjectName-_WwiseProject.wproj" DateLow="1650626828" DateHigh="0"/>
-	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\-ProjectName-_WwiseProject.crossover.wsettings" DateLow="1650627685" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1651494947" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\-ProjectName-_WwiseProject.wproj" DateLow="1651489443" DateHigh="0"/>
+	<ValidationCacheItem File="Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\-ProjectName-_WwiseProject.crossover.wsettings" DateLow="1651494932" DateHigh="0"/>
 </ValidationCache>

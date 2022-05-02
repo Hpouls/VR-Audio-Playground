@@ -3,17 +3,6 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{C71D6AFA-606C-43D9-8C3F-84B29C138E82}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="ForestAmbience_event" ID="{3181064D-6C2A-4CD1-A367-C1F782648660}">
-					<ChildrenList>
-						<Action Name="" ID="{694A2E28-ACE6-44E4-B3FC-B9FB95474300}" ShortID="584374416">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ES_Forest Ambience 2 - SFX Producer" ID="{E6C72A6E-B5B1-4B7C-BE39-DED27C620895}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Folder Name="Marimba_Stick" ID="{496A9074-88CF-4384-9FFB-8E1FE2FF2878}" ShortID="666548553">
 					<ChildrenList>
 						<Event Name="Marimba_01" ID="{5632C232-C711-476E-AE9D-1307FAB535E4}">
@@ -463,6 +452,32 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="boomwhacker_C2_1" ID="{920C274C-4EE5-4D1D-BB81-CF771D55B41F}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Ambience" ID="{B774FC44-B5EE-4B2B-B392-8E5BF92F2AC1}" ShortID="966908559">
+					<ChildrenList>
+						<Event Name="ForestAmbience_event" ID="{3181064D-6C2A-4CD1-A367-C1F782648660}">
+							<ChildrenList>
+								<Action Name="" ID="{694A2E28-ACE6-44E4-B3FC-B9FB95474300}" ShortID="584374416">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ES_Forest Ambience 2 - SFX Producer" ID="{E6C72A6E-B5B1-4B7C-BE39-DED27C620895}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Campfire_event" ID="{9EC61943-4C5F-4261-92ED-74D8181A7131}">
+							<ChildrenList>
+								<Action Name="" ID="{2C76B8F3-FA43-4ECE-9F4A-65FFE2E0A0D9}" ShortID="15754066">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ES_Fire Wood Crackle - SFX Producer" ID="{DB568910-D8B9-4891-B432-265C0AC4465D}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

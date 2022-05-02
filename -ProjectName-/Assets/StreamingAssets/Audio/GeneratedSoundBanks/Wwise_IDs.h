@@ -29,6 +29,7 @@ namespace AK
         static const AkUniqueID BOOMWHACKER_MALLET_06 = 2363352370U;
         static const AkUniqueID BOOMWHACKER_MALLET_07 = 2363352371U;
         static const AkUniqueID BOOMWHACKER_MALLET_08 = 2363352380U;
+        static const AkUniqueID CAMPFIRE_EVENT = 2301274947U;
         static const AkUniqueID FORESTAMBIENCE_EVENT = 3787218347U;
         static const AkUniqueID MARIMBA_01 = 2425325544U;
         static const AkUniqueID MARIMBA_02 = 2425325547U;
