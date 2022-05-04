@@ -4,6 +4,9 @@
 		<WorkUnit Name="Default Work Unit" ID="{67AD067D-3404-4C47-9BAF-63B2A3B7B624}" PersistMode="Standalone">
 			<ChildrenList>
 				<Attenuation Name="test" ID="{D5BD7053-1C39-4E6F-9DAF-3B87B62C89D7}" ShortID="879904796">
+					<PropertyList>
+						<Property Name="RadiusMax" Type="Real64" Value="10"/>
+					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
 							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
@@ -18,7 +21,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>10</XPos>
 											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
