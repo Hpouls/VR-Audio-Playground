@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class tangColourChange : MonoBehaviour
+public class PlaySound_Mat : MonoBehaviour
 {
     public Material[] material;
     Renderer rend;
