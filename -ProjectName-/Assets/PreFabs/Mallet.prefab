@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 253723309301583247}
   m_Layer: 7
   m_Name: Mallet
-  m_TagString: Tool
+  m_TagString: Mallet
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
