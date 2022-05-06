@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
   AcousticTextureWwu:
-  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+  - PhysicalPath: Virtual Acoustics/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Virtual Acoustics
       ObjectType: 5
@@ -21,13 +21,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: bf92dcc8daaf0a4ab64f0a4d93aa5f0c
-    ParentPath: Virtual Acoustics\Default Work Unit
+    ParentPath: Virtual Acoustics/Default Work Unit
     guid: bf92dcc8daaf0a4ab64f0a4d93aa5f0c
     GuidInternal: 
-    m_lastTime: -8585505567041440817
+    m_lastTime: -8585499386063522724
     List: []
   AuxBusWwu:
-  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+  - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Master-Mixer Hierarchy
       ObjectType: 5
@@ -35,10 +35,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 037af52077545a40a4d9f12cf2d4e631
-    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 037af52077545a40a4d9f12cf2d4e631
     GuidInternal: 
-    m_lastTime: -8585501169789978704
+    m_lastTime: -8585499386068995307
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -53,9 +53,9 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+      Path: Master-Mixer Hierarchy/Default Work Unit/Master Audio Bus
   BankWwu:
-  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+  - PhysicalPath: SoundBanks/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: SoundBanks
       ObjectType: 5
@@ -63,10 +63,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 7d934e5569237d4d9d5f4422770a94f3
-    ParentPath: SoundBanks\Default Work Unit
+    ParentPath: SoundBanks/Default Work Unit
     guid: 7d934e5569237d4d9d5f4422770a94f3
     GuidInternal: 
-    m_lastTime: -8585499517409815188
+    m_lastTime: -8585499386063538543
     List:
     - name: Main
       guid: 83c37d594846df4ea4a80e131010f525
@@ -81,9 +81,9 @@ MonoBehaviour:
       - ElementName: Main
         ObjectType: 7
         guid: 83c37d594846df4ea4a80e131010f525
-      Path: SoundBanks\Default Work Unit\Main
+      Path: SoundBanks/Default Work Unit/Main
   EventWwu:
-  - PhysicalPath: Events\Default Work Unit.wwu
+  - PhysicalPath: Events/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
       ObjectType: 5
@@ -91,10 +91,10 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: fa6a1dc76c60d9438c3f84b29c138e82
-    ParentPath: Events\Default Work Unit
+    ParentPath: Events/Default Work Unit
     guid: fa6a1dc76c60d9438c3f84b29c138e82
     GuidInternal: 
-    m_lastTime: -8585499574942420942
+    m_lastTime: -8585497846300687694
     List:
     - name: Ambience
       guid: 44fc74b7eeb52b4bb3928e5bf92f2ac1
@@ -109,7 +109,7 @@ MonoBehaviour:
       - ElementName: Ambience
         ObjectType: 4
         guid: 44fc74b7eeb52b4bb3928e5bf92f2ac1
-      Path: Events\Default Work Unit\Ambience
+      Path: Events/Default Work Unit/Ambience
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -129,7 +129,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_01
         ObjectType: 3
         guid: 337987f33401d7459503bd1d360d8123
-      Path: Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_01
+      Path: Events/Default Work Unit/BoomWhacker_Stick/BoomWhacker_01
       maxAttenuation: 0
       maxDuration: 7.509333
       minDuration: 7.509333
@@ -149,7 +149,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_02
         ObjectType: 3
         guid: 1aff99b9a01686498cc11be07da03e20
-      Path: Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_02
+      Path: Events/Default Work Unit/BoomWhacker_Stick/BoomWhacker_02
       maxAttenuation: 0
       maxDuration: 6.826667
       minDuration: 6.826667
@@ -169,7 +169,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_03
         ObjectType: 3
         guid: ec54830210770440819bcf720807757c
-      Path: Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_03
+      Path: Events/Default Work Unit/BoomWhacker_Stick/BoomWhacker_03
       maxAttenuation: 0
       maxDuration: 6.144
       minDuration: 6.144
@@ -189,7 +189,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_04
         ObjectType: 3
         guid: 5ba9ff90bd17eb48a09b9b3daedf8368
-      Path: Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_04
+      Path: Events/Default Work Unit/BoomWhacker_Stick/BoomWhacker_04
       maxAttenuation: 0
       maxDuration: 5.461333
       minDuration: 5.461333
@@ -209,7 +209,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_05
         ObjectType: 3
         guid: 47350b3bdcc2c64ea4a56d082bae747a
-      Path: Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_05
+      Path: Events/Default Work Unit/BoomWhacker_Stick/BoomWhacker_05
       maxAttenuation: 0
       maxDuration: 5.461333
       minDuration: 5.461333
@@ -229,7 +229,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_06
         ObjectType: 3
         guid: 6b9d6458ec9f91448dc7d67d1ce5aae1
-      Path: Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_06
+      Path: Events/Default Work Unit/BoomWhacker_Stick/BoomWhacker_06
       maxAttenuation: 0
       maxDuration: 4.778666
       minDuration: 4.778666
@@ -249,7 +249,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_07
         ObjectType: 3
         guid: 2903d47b91239e4fabc1135c60ba1797
-      Path: Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_07
+      Path: Events/Default Work Unit/BoomWhacker_Stick/BoomWhacker_07
       maxAttenuation: 0
       maxDuration: 4.096
       minDuration: 4.096
@@ -269,7 +269,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_08
         ObjectType: 3
         guid: 6eec32a4efe13346a2b166d47dce1dae
-      Path: Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_08
+      Path: Events/Default Work Unit/BoomWhacker_Stick/BoomWhacker_08
       maxAttenuation: 0
       maxDuration: 4.096
       minDuration: 4.096
@@ -286,7 +286,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet
         ObjectType: 4
         guid: 004ef047d3b45a4e844466f9632b928e
-      Path: Events\Default Work Unit\BoomWhacker_Mallet
+      Path: Events/Default Work Unit/BoomWhacker_Mallet
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -306,7 +306,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet_01
         ObjectType: 3
         guid: f36e554c7e49b14ba731394974b6f2b6
-      Path: Events\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_01
+      Path: Events/Default Work Unit/BoomWhacker_Mallet/BoomWhacker_Mallet_01
       maxAttenuation: 0
       maxDuration: 7.509333
       minDuration: 7.509333
@@ -326,7 +326,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet_02
         ObjectType: 3
         guid: 88365952334ad44794d4d348ae7e6b56
-      Path: Events\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_02
+      Path: Events/Default Work Unit/BoomWhacker_Mallet/BoomWhacker_Mallet_02
       maxAttenuation: 0
       maxDuration: 6.826667
       minDuration: 6.826667
@@ -346,7 +346,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet_03
         ObjectType: 3
         guid: 695ae4c3d10d54458fd541cbf2321782
-      Path: Events\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_03
+      Path: Events/Default Work Unit/BoomWhacker_Mallet/BoomWhacker_Mallet_03
       maxAttenuation: 0
       maxDuration: 6.144
       minDuration: 6.144
@@ -366,7 +366,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet_04
         ObjectType: 3
         guid: ee511b086908ba4782ac91ecafc7bb9a
-      Path: Events\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_04
+      Path: Events/Default Work Unit/BoomWhacker_Mallet/BoomWhacker_Mallet_04
       maxAttenuation: 0
       maxDuration: 5.461333
       minDuration: 5.461333
@@ -386,7 +386,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet_05
         ObjectType: 3
         guid: 3711415764c6e543a5d929cc45175ca9
-      Path: Events\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_05
+      Path: Events/Default Work Unit/BoomWhacker_Mallet/BoomWhacker_Mallet_05
       maxAttenuation: 0
       maxDuration: 5.461333
       minDuration: 5.461333
@@ -406,7 +406,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet_06
         ObjectType: 3
         guid: e8cb4d3487de7d48a8897ba681bc4f23
-      Path: Events\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_06
+      Path: Events/Default Work Unit/BoomWhacker_Mallet/BoomWhacker_Mallet_06
       maxAttenuation: 0
       maxDuration: 4.778666
       minDuration: 4.778666
@@ -426,7 +426,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet_07
         ObjectType: 3
         guid: 223fb61738fd974f8dca483fcc0822cf
-      Path: Events\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_07
+      Path: Events/Default Work Unit/BoomWhacker_Mallet/BoomWhacker_Mallet_07
       maxAttenuation: 0
       maxDuration: 4.096
       minDuration: 4.096
@@ -446,7 +446,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Mallet_08
         ObjectType: 3
         guid: e9cc67b1269b5b4c8764b47a74d2c053
-      Path: Events\Default Work Unit\BoomWhacker_Mallet\BoomWhacker_Mallet_08
+      Path: Events/Default Work Unit/BoomWhacker_Mallet/BoomWhacker_Mallet_08
       maxAttenuation: 0
       maxDuration: 4.096
       minDuration: 4.096
@@ -463,7 +463,7 @@ MonoBehaviour:
       - ElementName: BoomWhacker_Stick
         ObjectType: 4
         guid: 2b538e085c8c28449dce21a7013646d3
-      Path: Events\Default Work Unit\BoomWhacker_Stick
+      Path: Events/Default Work Unit/BoomWhacker_Stick
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -483,7 +483,7 @@ MonoBehaviour:
       - ElementName: Campfire_event
         ObjectType: 3
         guid: 4319c69e5f4c614292ed74d8181a7131
-      Path: Events\Default Work Unit\Ambience\Campfire_event
+      Path: Events/Default Work Unit/Ambience/Campfire_event
       maxAttenuation: 10
       maxDuration: -1
       minDuration: -1
@@ -503,7 +503,7 @@ MonoBehaviour:
       - ElementName: ForestAmbience_event
         ObjectType: 3
         guid: 4d0681312a6cd14ca367c1f782648660
-      Path: Events\Default Work Unit\Ambience\ForestAmbience_event
+      Path: Events/Default Work Unit/Ambience/ForestAmbience_event
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -523,7 +523,7 @@ MonoBehaviour:
       - ElementName: Marimba_01
         ObjectType: 3
         guid: 32c2325611c76e47ae9d1307fab535e4
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_01
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_01
       maxAttenuation: 0
       maxDuration: 3.413333
       minDuration: 3.413333
@@ -543,7 +543,7 @@ MonoBehaviour:
       - ElementName: Marimba_02
         ObjectType: 3
         guid: dcd802ce43eee74ca78ffc243f9de819
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_02
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_02
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -563,7 +563,7 @@ MonoBehaviour:
       - ElementName: Marimba_03
         ObjectType: 3
         guid: 3dad762e3b132347899705642f58b5e4
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_03
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_03
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -583,7 +583,7 @@ MonoBehaviour:
       - ElementName: Marimba_04
         ObjectType: 3
         guid: ef07f8d15ede3a47ad1c80403830aa23
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_04
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_04
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -603,7 +603,7 @@ MonoBehaviour:
       - ElementName: Marimba_05
         ObjectType: 3
         guid: 0b9cf3fb93545b4882ab5506b95d5f21
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_05
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_05
       maxAttenuation: 0
       maxDuration: 2.048
       minDuration: 2.048
@@ -623,7 +623,7 @@ MonoBehaviour:
       - ElementName: Marimba_06
         ObjectType: 3
         guid: ebf14bbc5681fa419a78008be7ba9312
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_06
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_06
       maxAttenuation: 0
       maxDuration: 3.413333
       minDuration: 3.413333
@@ -643,7 +643,7 @@ MonoBehaviour:
       - ElementName: Marimba_07
         ObjectType: 3
         guid: 0ceb45532d7dc64aaecd19ef3c1721dc
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_07
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_07
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -663,7 +663,7 @@ MonoBehaviour:
       - ElementName: Marimba_08
         ObjectType: 3
         guid: be67a6ec427acd4f8cead2afe536cc95
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_08
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_08
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -683,7 +683,7 @@ MonoBehaviour:
       - ElementName: Marimba_09
         ObjectType: 3
         guid: 2565efb3d63c58458d1b0f07a59e593f
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_09
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_09
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -703,7 +703,7 @@ MonoBehaviour:
       - ElementName: Marimba_10
         ObjectType: 3
         guid: f777e447f5546f49914fdd6900e2b56a
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_10
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_10
       maxAttenuation: 0
       maxDuration: 3.413333
       minDuration: 3.413333
@@ -723,7 +723,7 @@ MonoBehaviour:
       - ElementName: Marimba_11
         ObjectType: 3
         guid: 727428cb939bd4498b5be93c57a86380
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_11
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_11
       maxAttenuation: 0
       maxDuration: 3.413333
       minDuration: 3.413333
@@ -743,7 +743,7 @@ MonoBehaviour:
       - ElementName: Marimba_12
         ObjectType: 3
         guid: 50ab276417c1c04084cf3320c08b7dda
-      Path: Events\Default Work Unit\Marimba_Stick\Marimba_12
+      Path: Events/Default Work Unit/Marimba_Stick/Marimba_12
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -760,7 +760,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet
         ObjectType: 4
         guid: e31f75ae68bf3b40aacb5e810c215387
-      Path: Events\Default Work Unit\Marimba_Mallet
+      Path: Events/Default Work Unit/Marimba_Mallet
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
@@ -780,7 +780,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_01
         ObjectType: 3
         guid: 09518646bb70cb47989e16f9bcdcc4de
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_01
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_01
       maxAttenuation: 0
       maxDuration: 3.413333
       minDuration: 3.413333
@@ -800,7 +800,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_02
         ObjectType: 3
         guid: 1a7264280598fd41b5fe0c5fcde7857b
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_02
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_02
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -820,7 +820,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_03
         ObjectType: 3
         guid: da12dc76bb0bff4c8ef500a6587cc32c
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_03
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_03
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -840,7 +840,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_04
         ObjectType: 3
         guid: 376bd54299540c46811a84f3075b78f8
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_04
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_04
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -860,7 +860,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_05
         ObjectType: 3
         guid: 9298c46ce3def647866d836e9697ac32
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_05
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_05
       maxAttenuation: 0
       maxDuration: 2.048
       minDuration: 2.048
@@ -880,7 +880,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_06
         ObjectType: 3
         guid: fc265ac118343642b37e17433de5582a
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_06
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_06
       maxAttenuation: 0
       maxDuration: 3.413333
       minDuration: 3.413333
@@ -900,7 +900,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_07
         ObjectType: 3
         guid: 4870c239ecb95b498f7e089a555c2209
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_07
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_07
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -920,7 +920,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_08
         ObjectType: 3
         guid: 67fb044c07f40d4690cbbedf6145dd97
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_08
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_08
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -940,7 +940,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_09
         ObjectType: 3
         guid: be066e4b1f02df438527e03bfcdd53a0
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_09
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_09
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -960,7 +960,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_10
         ObjectType: 3
         guid: 7c8fccdf91787f4f9dc4f3ef2194a677
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_10
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_10
       maxAttenuation: 0
       maxDuration: 3.413333
       minDuration: 3.413333
@@ -980,7 +980,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_11
         ObjectType: 3
         guid: 116b1bdfef675d41af29e62e969d2f6b
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_11
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_11
       maxAttenuation: 0
       maxDuration: 3.413333
       minDuration: 3.413333
@@ -1000,7 +1000,7 @@ MonoBehaviour:
       - ElementName: Marimba_Mallet_12
         ObjectType: 3
         guid: 6739c82381e8b34b9d860273bf9672f3
-      Path: Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_12
+      Path: Events/Default Work Unit/Marimba_Mallet/Marimba_Mallet_12
       maxAttenuation: 0
       maxDuration: 2.730667
       minDuration: 2.730667
@@ -1017,12 +1017,12 @@ MonoBehaviour:
       - ElementName: Marimba_Stick
         ObjectType: 4
         guid: 74906a49cf8884439ffb8e1fe2ff2878
-      Path: Events\Default Work Unit\Marimba_Stick
+      Path: Events/Default Work Unit/Marimba_Stick
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
   RtpcWwu:
-  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+  - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Game Parameters
       ObjectType: 5
@@ -1030,13 +1030,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 0d77b2238478fc4790ba9e713bea96a2
-    ParentPath: Game Parameters\Default Work Unit
+    ParentPath: Game Parameters/Default Work Unit
     guid: 0d77b2238478fc4790ba9e713bea96a2
     GuidInternal: 
-    m_lastTime: -8585505567065002851
+    m_lastTime: -8585499386077000858
     List: []
   StateWwu:
-  - PhysicalPath: States\Default Work Unit.wwu
+  - PhysicalPath: States/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: States
       ObjectType: 5
@@ -1044,13 +1044,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: be1b7f0cdee1244b9b76523ca0a7158c
-    ParentPath: States\Default Work Unit
+    ParentPath: States/Default Work Unit
     guid: be1b7f0cdee1244b9b76523ca0a7158c
     GuidInternal: 
-    m_lastTime: -8585505567041530885
+    m_lastTime: -8585499386063532555
     List: []
   SwitchWwu:
-  - PhysicalPath: Switches\Default Work Unit.wwu
+  - PhysicalPath: Switches/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Switches
       ObjectType: 5
@@ -1058,13 +1058,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 81fccc4c33d0dc408cac936b2963eace
-    ParentPath: Switches\Default Work Unit
+    ParentPath: Switches/Default Work Unit
     guid: 81fccc4c33d0dc408cac936b2963eace
     GuidInternal: 
-    m_lastTime: -8585501155299658996
+    m_lastTime: -8585497846287511232
     List: []
   TriggerWwu:
-  - PhysicalPath: Triggers\Default Work Unit.wwu
+  - PhysicalPath: Triggers/Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Triggers
       ObjectType: 5
@@ -1072,13 +1072,13 @@ MonoBehaviour:
     - ElementName: Default Work Unit
       ObjectType: 12
       guid: 1179a0709cb8e941a1d2de0ff8a5dfef
-    ParentPath: Triggers\Default Work Unit
+    ParentPath: Triggers/Default Work Unit
     guid: 1179a0709cb8e941a1d2de0ff8a5dfef
     GuidInternal: 
-    m_lastTime: -8585501155299629008
+    m_lastTime: -8585499386063526963
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000a0000000b000000
+  ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
