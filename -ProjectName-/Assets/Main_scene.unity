@@ -2035,7 +2035,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material:
-  - {fileID: 2100000, guid: 64244c82e8527e242b223eecb1745790, type: 2}
+  - {fileID: 2100000, guid: 9e4e5b8d6a40eac44b6e7985d2e63fa3, type: 2}
   - {fileID: 2100000, guid: 58aa3ec32efeb834090e94ea2a16f31d, type: 2}
   soundOn: 0
   MushroomSound:
@@ -3407,7 +3407,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   material:
-  - {fileID: 2100000, guid: 64244c82e8527e242b223eecb1745790, type: 2}
+  - {fileID: 2100000, guid: 9e4e5b8d6a40eac44b6e7985d2e63fa3, type: 2}
   - {fileID: 2100000, guid: 51044789866f8df4d881e477d191071b, type: 2}
   soundOn: 0
   MushroomSound:
