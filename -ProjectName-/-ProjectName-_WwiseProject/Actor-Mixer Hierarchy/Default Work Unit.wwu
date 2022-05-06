@@ -8,6 +8,11 @@
 						<Sound Name="marimba_a1_1" ID="{11F1AA0B-7728-4EAD-8874-0E5C2F500349}" ShortID="946286792">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
