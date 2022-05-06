@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\pblom\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\pblom\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\pblom\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\pblom\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2913867670">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2550920697">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -358,96 +358,6 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
-			<IncludedMemoryFiles>
-				<File Id="130206223" Language="SFX">
-					<ShortName>boomwhacker_B1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_B1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="162371181" Language="SFX">
-					<ShortName>boomwhacker_D1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_D1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="195933173" Language="SFX">
-					<ShortName>marimba_c2_1.wav</ShortName>
-					<Path>SFX\marimba_c2_1_10C4C929.wem</Path>
-				</File>
-				<File Id="260673542" Language="SFX">
-					<ShortName>marimba_d2_1.wav</ShortName>
-					<Path>SFX\marimba_d2_1_10C4C929.wem</Path>
-				</File>
-				<File Id="263339574" Language="SFX">
-					<ShortName>boomwhacker_E1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_E1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="270431304" Language="SFX">
-					<ShortName>marimba_f1_1.wav</ShortName>
-					<Path>SFX\marimba_f1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="270918972" Language="SFX">
-					<ShortName>marimba_e2_1.wav</ShortName>
-					<Path>SFX\marimba_e2_1_10C4C929.wem</Path>
-				</File>
-				<File Id="335013293" Language="SFX">
-					<ShortName>boomwhacker_F1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_F1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="340729439" Language="SFX">
-					<ShortName>marimba_d1_1.wav</ShortName>
-					<Path>SFX\marimba_d1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="341514206" Language="SFX">
-					<ShortName>boomwhacker_A1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_A1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="477897202" Language="SFX">
-					<ShortName>boomwhacker_G1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_G1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="538411453" Language="SFX">
-					<ShortName>marimba_g2_1.wav</ShortName>
-					<Path>SFX\marimba_g2_1_10C4C929.wem</Path>
-				</File>
-				<File Id="579715613" Language="SFX">
-					<ShortName>marimba_b1_1.wav</ShortName>
-					<Path>SFX\marimba_b1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="602536372" Language="SFX">
-					<ShortName>ES_Fire Wood Crackle - SFX Producer.wav</ShortName>
-					<Path>SFX\ES_Fire Wood Crackle - SFX Producer_D79FB2B7.wem</Path>
-				</File>
-				<File Id="610314272" Language="SFX">
-					<ShortName>marimba_a1_1.wav</ShortName>
-					<Path>SFX\marimba_a1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="675793167" Language="SFX">
-					<ShortName>marimba_f2_1.wav</ShortName>
-					<Path>SFX\marimba_f2_1_10C4C929.wem</Path>
-				</File>
-				<File Id="682839942" Language="SFX">
-					<ShortName>marimba_e1_1.wav</ShortName>
-					<Path>SFX\marimba_e1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="823887300" Language="SFX">
-					<ShortName>marimba_c1_1.wav</ShortName>
-					<Path>SFX\marimba_c1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="893299049" Language="SFX">
-					<ShortName>boomwhacker_C1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_C1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="1032974019" Language="SFX">
-					<ShortName>boomwhacker_C2_1.wav</ShortName>
-					<Path>SFX\boomwhacker_C2_1_10C4C929.wem</Path>
-				</File>
-				<File Id="1039888937" Language="SFX">
-					<ShortName>ES_Forest Ambience 2 - SFX Producer.wav</ShortName>
-					<Path>SFX\ES_Forest Ambience 2 - SFX Producer_D79FB2B7.wem</Path>
-				</File>
-				<File Id="1047823934" Language="SFX">
-					<ShortName>marimba_g1_1.wav</ShortName>
-					<Path>SFX\marimba_g1_1_10C4C929.wem</Path>
-				</File>
-			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
