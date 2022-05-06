@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 037af52077545a40a4d9f12cf2d4e631
     GuidInternal: 
-    m_lastTime: -8585505567056458940
+    m_lastTime: -8585501169789978704
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -1078,7 +1078,7 @@ MonoBehaviour:
     m_lastTime: -8585501155299629008
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 05000000060000000a0000000b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
