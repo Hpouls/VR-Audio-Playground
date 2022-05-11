@@ -9,7 +9,7 @@
   <ObjectReferenceAutoCleanup>true</ObjectReferenceAutoCleanup>
   <ShowMissingRigidBodyWarning>true</ShowMissingRigidBodyWarning>
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
-  <WwiseInstallationPathMac />
+  <WwiseInstallationPathMac>/Applications/Audiokinetic/Wwise 2021.1.7.7796/Wwise.app</WwiseInstallationPathMac>
   <WwiseInstallationPathWindows>C:\Program Files (x86)\Audiokinetic\Wwise 2021.1.7.7796</WwiseInstallationPathWindows>
   <WwiseProjectPath>../-ProjectName-_WwiseProject/-ProjectName-_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>

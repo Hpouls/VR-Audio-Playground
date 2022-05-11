@@ -41,6 +41,10 @@ Event	ID	Name			Wwise Object Path	Notes
 	3380606238	BoomWhacker_06			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_06	
 	3380606239	BoomWhacker_07			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_07	
 	3787218347	ForestAmbience_event			\Default Work Unit\Ambience\ForestAmbience_event	
+	4202052909	voiceOfGod_event			\Default Work Unit\voiceOfGod_event	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	130206223	boomwhacker_B1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_B1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_B1_1		786576
@@ -55,6 +59,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	341514206	boomwhacker_A1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_A1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_A1_1		917648
 	477897202	boomwhacker_G1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_G1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_G1_1		1048720
 	538411453	marimba_g2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_g2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_g2_1		524432
+	548673738	voiceOfGod	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\voiceofgawd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\voiceOfGod		8116908
 	579715613	marimba_b1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_b1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_b1_1		524432
 	602536372	ES_Fire Wood Crackle - SFX Producer	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\ES_Fire Wood Crackle - SFX Producer_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ES_Fire Wood Crackle - SFX Producer		20400192
 	610314272	marimba_a1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_a1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_a1_1		655504

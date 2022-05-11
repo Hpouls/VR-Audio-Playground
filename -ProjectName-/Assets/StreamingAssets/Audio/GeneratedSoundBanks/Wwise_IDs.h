@@ -55,6 +55,7 @@ namespace AK
         static const AkUniqueID MARIMBA_MALLET_10 = 1754432700U;
         static const AkUniqueID MARIMBA_MALLET_11 = 1754432701U;
         static const AkUniqueID MARIMBA_MALLET_12 = 1754432702U;
+        static const AkUniqueID VOICEOFGOD_EVENT = 4202052909U;
     } // namespace EVENTS
 
     namespace BANKS

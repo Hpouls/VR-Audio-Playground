@@ -485,6 +485,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="voiceOfGod_event" ID="{1E37C2C3-04C2-4749-910F-2C0832791BF7}">
+					<ChildrenList>
+						<Action Name="" ID="{09CB3CBB-4818-4D75-8090-AEA10006153B}" ShortID="833226464">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="voiceOfGod" ID="{2CE49B3C-5409-4F53-B4AB-58DB516BC76C}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -1330,6 +1330,29 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="voiceOfGod" ID="{2CE49B3C-5409-4F53-B4AB-58DB516BC76C}" ShortID="218779860">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="voiceofgawd" ID="{9F3831B8-48CE-4E92-B40E-DE6B6B7A3996}">
+							<Language>SFX</Language>
+							<AudioFile>voiceofgawd.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="548673738"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="voiceofgawd" ID="{9F3831B8-48CE-4E92-B40E-DE6B6B7A3996}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
