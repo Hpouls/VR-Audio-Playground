@@ -1,4 +1,5 @@
 Event	ID	Name			Wwise Object Path	Notes
+	263720000	StickSound			\Default Work Unit\StickSound	
 	1315920940	green_G			\Default Work Unit\Synth\green_G	
 	1714369321	yellow_E			\Default Work Unit\Synth\yellow_E	
 	1754432700	Marimba_Mallet_10			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_10	
@@ -46,6 +47,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	4010961695	blue_C			\Default Work Unit\Synth\blue_C	
 	4202052909	voiceOfGod_event			\Default Work Unit\voiceOfGod_event	
 
+Modulator LFO	ID	Name			Wwise Object Path	Notes
+	568527119	Modulator LFO (Custom)				
+
 Modulator Envelope	ID	Name			Wwise Object Path	Notes
 	164005529	Modulator Envelope (Custom)				
 
@@ -53,36 +57,37 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 
 Effect plug-ins	ID	Name	Type				Notes
-	701863527	Inside_My_Head	Wwise RoomVerb			
+	3442768367	Hall_Large_Dark	Wwise RoomVerb			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	786707036	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Synth\Square\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	130206223	boomwhacker_B1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_B1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_B1_1		786576
-	130487690	marimba_b2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_b2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_b2_1		524432
 	162371181	boomwhacker_D1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_D1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_D1_1		1310864
 	195933173	marimba_c2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_c2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_c2_1		524432
-	210160294	marimba_e3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_e3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_e3_1		393360
-	230478634	qwefda_E	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\qwefda_E_F75DD9D9.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\yellow_E\qwefda_E		2520
+	230478634	qwefda_E	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\qwefda_E_F75DD9D9.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\yellow_E\qwefda_E		2784
 	260673542	marimba_d2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_d2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_d2_1		524432
 	263339574	boomwhacker_E1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_E1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_E1_1		1179792
 	270918972	marimba_e2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_e2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_e2_1		655504
 	335013293	boomwhacker_F1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_F1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_F1_1		1048720
 	341514206	boomwhacker_A1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_A1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_A1_1		917648
-	378591030	qwefda_C	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\qwefda_C_C67D6917.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\blue_C\qwefda_C		2520
+	378591030	qwefda_C	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\qwefda_C_F75DD9D9.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\blue_C\qwefda_C		2784
+	391452647	marimba_f3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_f3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_f3_1		393360
+	428218596	marimba_d3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_d3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_d3_1		393360
 	477897202	boomwhacker_G1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_G1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_G1_1		1048720
+	504104466	marimba_g3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_g3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_g3_1		262288
 	538411453	marimba_g2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_g2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_g2_1		524432
 	548673738	voiceOfGod	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\voiceofgawd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\voiceOfGod		8116908
-	580172463	marimba_a2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_a2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_a2_1		393360
 	602536372	ES_Fire Wood Crackle - SFX Producer	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\ES_Fire Wood Crackle - SFX Producer_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ES_Fire Wood Crackle - SFX Producer		20400192
-	642096584	marimba_f3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_f3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_f3_1		393360
+	643814831	marimba_a2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_a2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_a2_1		393360
 	675793167	marimba_f2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_f2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_f2_1		655504
-	682449014	marimba_g3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_g3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_g3_1		262288
-	800730267	qwefda_G	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\qwefda_G_4A08A3D8.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\green_G\qwefda_G		91
+	767151875	ES_Wood_Hits_Wood_4_-_SFX_Producer	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\ES_Wood_Hits_Wood_4_-_SFX_Producer_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\ES_Wood_Hits_Wood_4_-_SFX_Producer		251968
+	780682532	marimba_b2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_b2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_b2_1		524432
+	800730267	qwefda_G	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\qwefda_G_F75DD9D9.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\green_G\qwefda_G		2784
+	846349212	marimba_e3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_e3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_e3_1		393360
 	893299049	boomwhacker_C1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_C1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_C1_1		1441936
-	903813986	marimba_d3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_d3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_d3_1		393360
+	902701276	marimba_c3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_c3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_c3_1		524432
 	1032974019	boomwhacker_C2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\boomwhacker_C2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_C2_1		786576
 	1039888937	ES_Forest Ambience 2 - SFX Producer	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\ES_Forest Ambience 2 - SFX Producer_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambience\ES_Forest Ambience 2 - SFX Producer		10893376
-	1071186235	marimba_c3_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Mac\SFX\marimba_c3_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_c3_1		524432
 

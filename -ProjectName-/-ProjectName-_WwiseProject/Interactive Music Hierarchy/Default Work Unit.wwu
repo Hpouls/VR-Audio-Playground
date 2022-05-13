@@ -15,10 +15,10 @@
 					<ChildrenList>
 						<MusicSegment Name="blue_C" ID="{CF1558DE-CFCB-404E-9416-B7C65D27C812}" ShortID="422657393">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="568000"/>
+								<Property Name="EndPosition" Type="Real64" Value="584000"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
-								<Property Name="Tempo" Type="Real64" Value="60"/>
+								<Property Name="Tempo" Type="Real64" Value="70"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -32,14 +32,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="qwefda_C" ID="{CB95D945-81EE-47BF-8698-1AA4D374B451}" ShortID="369849170">
+								<MusicTrack Name="qwefda_C" ID="{0F80D616-B8EB-483B-8C75-404FC830C1E4}" ShortID="319905474">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MidiFileSource Name="qwefda_C" ID="{10F0EEBE-3E8D-49C3-BC0B-14A0005BA4B1}" ShortID="960907902">
+										<MidiFileSource Name="qwefda_C" ID="{4819D56D-DAD5-4855-9BFB-ADD3CFA0999C}" ShortID="1004804561">
 											<Language>SFX</Language>
 											<MidiFile>qwefda_C.mid</MidiFile>
 											<MediaIDList>
@@ -48,7 +48,7 @@
 										</MidiFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{D0EEC380-8512-4BC1-95A9-F0AE1AFE75C4}">
+										<MusicTransition Name="Root" ID="{5FB2701D-E732-41D6-8DCD-3F0561EC439D}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -59,16 +59,16 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{1AF785A6-C0C8-4750-BD0C-7350694734BC}">
+													<MusicTrackSequence Name="" ID="{A0206CF2-6597-493A-9320-A943E79B55AC}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClipMidi Name="qwefda_C" ID="{B62918CB-17D2-424F-BEAB-F3F026AD16A7}">
+																		<MusicClipMidi Name="qwefda_C" ID="{06D420CE-D3DF-481E-A088-5D9A73F9752A}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="568000"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="584000"/>
 																			</PropertyList>
-																			<MidiSourceRef Name="qwefda_C" ID="{10F0EEBE-3E8D-49C3-BC0B-14A0005BA4B1}"/>
+																			<MidiSourceRef Name="qwefda_C" ID="{4819D56D-DAD5-4855-9BFB-ADD3CFA0999C}"/>
 																		</MusicClipMidi>
 																	</Local>
 																</Reference>
@@ -106,7 +106,7 @@
 								<Property Name="EndPosition" Type="Real64" Value="584000"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
-								<Property Name="Tempo" Type="Real64" Value="60"/>
+								<Property Name="Tempo" Type="Real64" Value="70"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -120,14 +120,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="qwefda_E" ID="{6A781BB8-544E-4545-9B9B-57278B00143F}" ShortID="710986666">
+								<MusicTrack Name="qwefda_E" ID="{CC3CAE2A-3FC3-47DD-AD46-D753F909B126}" ShortID="886185229">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MidiFileSource Name="qwefda_E" ID="{F8686DE2-0431-416D-8C19-483529E2AA81}" ShortID="145897614">
+										<MidiFileSource Name="qwefda_E" ID="{0093E750-F807-4751-BF7C-B80417CC46C0}" ShortID="188096035">
 											<Language>SFX</Language>
 											<MidiFile>qwefda_E.mid</MidiFile>
 											<MediaIDList>
@@ -136,7 +136,7 @@
 										</MidiFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{B0B5FAE6-356A-4B3C-B78B-885E4F6780BB}">
+										<MusicTransition Name="Root" ID="{18E40082-5B28-4F5F-BE0E-146E1EAB8792}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -147,16 +147,16 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{A882DE79-24AB-485A-8A4E-572936D26D9A}">
+													<MusicTrackSequence Name="" ID="{A18441B7-CA75-4970-A42F-7AB58254E1FC}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClipMidi Name="qwefda_E" ID="{9AE13692-23A4-4B2B-B2AD-3C0563D512F7}">
+																		<MusicClipMidi Name="qwefda_E" ID="{ED980196-AB87-43B9-9784-83CCFDD66DAB}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="584000"/>
 																			</PropertyList>
-																			<MidiSourceRef Name="qwefda_E" ID="{F8686DE2-0431-416D-8C19-483529E2AA81}"/>
+																			<MidiSourceRef Name="qwefda_E" ID="{0093E750-F807-4751-BF7C-B80417CC46C0}"/>
 																		</MusicClipMidi>
 																	</Local>
 																</Reference>
@@ -191,10 +191,10 @@
 						</MusicSegment>
 						<MusicSegment Name="green_G" ID="{92B35102-443A-4E2A-9BD9-C190EFFBDBD6}" ShortID="495426873">
 							<PropertyList>
-								<Property Name="EndPosition" Type="Real64" Value="56000"/>
+								<Property Name="EndPosition" Type="Real64" Value="584000"/>
 								<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 								<Property Name="OverrideMidiTarget" Type="bool" Value="True"/>
-								<Property Name="Tempo" Type="Real64" Value="80"/>
+								<Property Name="Tempo" Type="Real64" Value="70"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -213,14 +213,14 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicTrack Name="qwefda_G" ID="{37F9AE0E-FA0F-43C1-9ED5-B3EA28929C33}" ShortID="848121029">
+								<MusicTrack Name="qwefda_G" ID="{6C87D003-1948-4DE2-8FF0-71412985CC7A}" ShortID="424429642">
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MidiFileSource Name="qwefda_G" ID="{A6A1F8CD-B6C8-48ED-ABEB-1EAF35D99F83}" ShortID="827318874">
+										<MidiFileSource Name="qwefda_G" ID="{0E086A4C-C226-45A1-B446-B1B79174C34B}" ShortID="615428823">
 											<Language>SFX</Language>
 											<MidiFile>qwefda_G.mid</MidiFile>
 											<MediaIDList>
@@ -229,7 +229,7 @@
 										</MidiFileSource>
 									</ChildrenList>
 									<TransitionList>
-										<MusicTransition Name="Root" ID="{3A4C7891-64CB-46C7-A887-A07D3E33F01B}">
+										<MusicTransition Name="Root" ID="{7255C5B1-B87B-4729-8EF9-A2FB584B494A}">
 											<PropertyList>
 												<Property Name="IsFolder" Type="bool" Value="True"/>
 											</PropertyList>
@@ -240,16 +240,16 @@
 										<ObjectList Name="Sequences">
 											<Reference>
 												<Local>
-													<MusicTrackSequence Name="" ID="{CBBF7D72-A236-4F60-B941-DFD8AAB5146B}">
+													<MusicTrackSequence Name="" ID="{EB7D3EB9-0E4D-45D1-BC57-5FAEE0A67FF9}">
 														<ObjectLists>
 															<ObjectList Name="Clips">
 																<Reference>
 																	<Local>
-																		<MusicClipMidi Name="qwefda_G" ID="{9DB9CE80-48EF-4505-BB1C-E1CF4B1D2D64}">
+																		<MusicClipMidi Name="qwefda_G" ID="{C1B73B0D-F3BE-4343-B9A7-B78957FD6F20}">
 																			<PropertyList>
-																				<Property Name="EndTrimOffset" Type="Real64" Value="56000"/>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="584000"/>
 																			</PropertyList>
-																			<MidiSourceRef Name="qwefda_G" ID="{A6A1F8CD-B6C8-48ED-ABEB-1EAF35D99F83}"/>
+																			<MidiSourceRef Name="qwefda_G" ID="{0E086A4C-C226-45A1-B446-B1B79174C34B}"/>
 																		</MusicClipMidi>
 																	</Local>
 																</Reference>

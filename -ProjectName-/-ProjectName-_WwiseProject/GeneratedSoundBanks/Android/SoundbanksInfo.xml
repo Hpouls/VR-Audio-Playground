@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>/Users/maxsarinelli/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Potato-Rock-Studio/-ProjectName-/-ProjectName-_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/maxsarinelli/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Potato-Rock-Studio/-ProjectName-/-ProjectName-_WwiseProject/.cache/Android/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/maxsarinelli/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Potato-Rock-Studio/-ProjectName-/-ProjectName-_WwiseProject/GeneratedSoundBanks/Android/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\hanni\OneDrive\Dokumenter\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/maxsarinelli/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Documents/GitHub/Potato-Rock-Studio/-ProjectName-/-ProjectName-_WwiseProject/GeneratedSoundBanks/Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,16 +16,16 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1982139169">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2554903459">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="4010961695" Name="blue_C" ObjectPath="\Events\Default Work Unit\Synth\blue_C" DurationType="OneShot" DurationMin="568." DurationMax="568.">
+				<Event Id="4010961695" Name="blue_C" ObjectPath="\Events\Default Work Unit\Synth\blue_C" DurationType="OneShot" DurationMin="584." DurationMax="584.">
 					<IncludedMemoryFiles>
 						<File Id="378591030" Language="SFX">
 							<ShortName>qwefda_C.mid</ShortName>
-							<Path>SFX\qwefda_C_C67D6917.wmid</Path>
+							<Path>SFX/qwefda_C_F75DD9D9.wmid</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -33,7 +33,7 @@
 					<IncludedMemoryFiles>
 						<File Id="893299049" Language="SFX">
 							<ShortName>boomwhacker_C1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_C1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_C1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -41,7 +41,7 @@
 					<IncludedMemoryFiles>
 						<File Id="162371181" Language="SFX">
 							<ShortName>boomwhacker_D1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_D1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_D1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -49,7 +49,7 @@
 					<IncludedMemoryFiles>
 						<File Id="263339574" Language="SFX">
 							<ShortName>boomwhacker_E1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_E1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_E1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -57,7 +57,7 @@
 					<IncludedMemoryFiles>
 						<File Id="335013293" Language="SFX">
 							<ShortName>boomwhacker_F1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_F1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_F1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -65,7 +65,7 @@
 					<IncludedMemoryFiles>
 						<File Id="477897202" Language="SFX">
 							<ShortName>boomwhacker_G1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_G1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_G1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -73,7 +73,7 @@
 					<IncludedMemoryFiles>
 						<File Id="341514206" Language="SFX">
 							<ShortName>boomwhacker_A1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_A1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_A1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -81,7 +81,7 @@
 					<IncludedMemoryFiles>
 						<File Id="130206223" Language="SFX">
 							<ShortName>boomwhacker_B1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_B1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_B1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -89,7 +89,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1032974019" Language="SFX">
 							<ShortName>boomwhacker_C2_1.wav</ShortName>
-							<Path>SFX\boomwhacker_C2_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_C2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -97,7 +97,7 @@
 					<IncludedMemoryFiles>
 						<File Id="893299049" Language="SFX">
 							<ShortName>boomwhacker_C1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_C1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_C1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -105,7 +105,7 @@
 					<IncludedMemoryFiles>
 						<File Id="162371181" Language="SFX">
 							<ShortName>boomwhacker_D1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_D1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_D1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -113,7 +113,7 @@
 					<IncludedMemoryFiles>
 						<File Id="263339574" Language="SFX">
 							<ShortName>boomwhacker_E1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_E1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_E1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -121,7 +121,7 @@
 					<IncludedMemoryFiles>
 						<File Id="335013293" Language="SFX">
 							<ShortName>boomwhacker_F1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_F1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_F1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -129,7 +129,7 @@
 					<IncludedMemoryFiles>
 						<File Id="477897202" Language="SFX">
 							<ShortName>boomwhacker_G1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_G1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_G1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -137,7 +137,7 @@
 					<IncludedMemoryFiles>
 						<File Id="341514206" Language="SFX">
 							<ShortName>boomwhacker_A1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_A1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_A1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -145,7 +145,7 @@
 					<IncludedMemoryFiles>
 						<File Id="130206223" Language="SFX">
 							<ShortName>boomwhacker_B1_1.wav</ShortName>
-							<Path>SFX\boomwhacker_B1_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_B1_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -153,7 +153,7 @@
 					<IncludedMemoryFiles>
 						<File Id="1032974019" Language="SFX">
 							<ShortName>boomwhacker_C2_1.wav</ShortName>
-							<Path>SFX\boomwhacker_C2_1_10C4C929.wem</Path>
+							<Path>SFX/boomwhacker_C2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -161,7 +161,7 @@
 					<IncludedMemoryFiles>
 						<File Id="602536372" Language="SFX">
 							<ShortName>ES_Fire Wood Crackle - SFX Producer.wav</ShortName>
-							<Path>SFX\ES_Fire Wood Crackle - SFX Producer_D79FB2B7.wem</Path>
+							<Path>SFX/ES_Fire Wood Crackle - SFX Producer_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -169,207 +169,207 @@
 					<IncludedMemoryFiles>
 						<File Id="1039888937" Language="SFX">
 							<ShortName>ES_Forest Ambience 2 - SFX Producer.wav</ShortName>
-							<Path>SFX\ES_Forest Ambience 2 - SFX Producer_D79FB2B7.wem</Path>
+							<Path>SFX/ES_Forest Ambience 2 - SFX Producer_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1315920940" Name="green_G" ObjectPath="\Events\Default Work Unit\Synth\green_G" DurationType="OneShot" DurationMin="56." DurationMax="56.">
+				<Event Id="1315920940" Name="green_G" ObjectPath="\Events\Default Work Unit\Synth\green_G" DurationType="OneShot" DurationMin="584." DurationMax="584.">
 					<IncludedMemoryFiles>
 						<File Id="800730267" Language="SFX">
 							<ShortName>qwefda_G.mid</ShortName>
-							<Path>SFX\qwefda_G_4A08A3D8.wmid</Path>
+							<Path>SFX/qwefda_G_F75DD9D9.wmid</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2425325544" Name="Marimba_01" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_01" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
+				<Event Id="2425325544" Name="Marimba_01" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_01" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
-						<File Id="823887300" Language="SFX">
-							<ShortName>marimba_c1_1.wav</ShortName>
-							<Path>SFX\marimba_c1_1_10C4C929.wem</Path>
+						<File Id="195933173" Language="SFX">
+							<ShortName>marimba_c2_1.wav</ShortName>
+							<Path>SFX/marimba_c2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2425325547" Name="Marimba_02" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_02" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
-						<File Id="340729439" Language="SFX">
-							<ShortName>marimba_d1_1.wav</ShortName>
-							<Path>SFX\marimba_d1_1_10C4C929.wem</Path>
+						<File Id="260673542" Language="SFX">
+							<ShortName>marimba_d2_1.wav</ShortName>
+							<Path>SFX/marimba_d2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2425325546" Name="Marimba_03" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_03" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
+				<Event Id="2425325546" Name="Marimba_03" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_03" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
 					<IncludedMemoryFiles>
-						<File Id="682839942" Language="SFX">
-							<ShortName>marimba_e1_1.wav</ShortName>
-							<Path>SFX\marimba_e1_1_10C4C929.wem</Path>
+						<File Id="270918972" Language="SFX">
+							<ShortName>marimba_e2_1.wav</ShortName>
+							<Path>SFX/marimba_e2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2425325549" Name="Marimba_04" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_04" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
+				<Event Id="2425325549" Name="Marimba_04" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_04" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
 					<IncludedMemoryFiles>
-						<File Id="270431304" Language="SFX">
-							<ShortName>marimba_f1_1.wav</ShortName>
-							<Path>SFX\marimba_f1_1_10C4C929.wem</Path>
+						<File Id="675793167" Language="SFX">
+							<ShortName>marimba_f2_1.wav</ShortName>
+							<Path>SFX/marimba_f2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2425325548" Name="Marimba_05" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_05" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+				<Event Id="2425325548" Name="Marimba_05" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_05" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
-						<File Id="1047823934" Language="SFX">
-							<ShortName>marimba_g1_1.wav</ShortName>
-							<Path>SFX\marimba_g1_1_10C4C929.wem</Path>
+						<File Id="538411453" Language="SFX">
+							<ShortName>marimba_g2_1.wav</ShortName>
+							<Path>SFX/marimba_g2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2425325551" Name="Marimba_06" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_06" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
+				<Event Id="2425325551" Name="Marimba_06" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_06" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
 					<IncludedMemoryFiles>
-						<File Id="610314272" Language="SFX">
-							<ShortName>marimba_a1_1.wav</ShortName>
-							<Path>SFX\marimba_a1_1_10C4C929.wem</Path>
+						<File Id="643814831" Language="SFX">
+							<ShortName>marimba_a2_1.wav</ShortName>
+							<Path>SFX/marimba_a2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2425325550" Name="Marimba_07" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_07" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
-						<File Id="579715613" Language="SFX">
-							<ShortName>marimba_b1_1.wav</ShortName>
-							<Path>SFX\marimba_b1_1_10C4C929.wem</Path>
+						<File Id="780682532" Language="SFX">
+							<ShortName>marimba_b2_1.wav</ShortName>
+							<Path>SFX/marimba_b2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2425325537" Name="Marimba_08" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_08" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
+						<File Id="902701276" Language="SFX">
+							<ShortName>marimba_c3_1.wav</ShortName>
+							<Path>SFX/marimba_c3_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2425325536" Name="Marimba_09" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_09" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<IncludedMemoryFiles>
+						<File Id="428218596" Language="SFX">
+							<ShortName>marimba_d3_1.wav</ShortName>
+							<Path>SFX/marimba_d3_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2408547958" Name="Marimba_10" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_10" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<IncludedMemoryFiles>
+						<File Id="846349212" Language="SFX">
+							<ShortName>marimba_e3_1.wav</ShortName>
+							<Path>SFX/marimba_e3_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2408547959" Name="Marimba_11" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_11" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+					<IncludedMemoryFiles>
+						<File Id="391452647" Language="SFX">
+							<ShortName>marimba_f3_1.wav</ShortName>
+							<Path>SFX/marimba_f3_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2408547956" Name="Marimba_12" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_12" DurationType="OneShot" DurationMin="1.365333" DurationMax="1.365333">
+					<IncludedMemoryFiles>
+						<File Id="504104466" Language="SFX">
+							<ShortName>marimba_g3_1.wav</ShortName>
+							<Path>SFX/marimba_g3_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1771210286" Name="Marimba_Mallet_01" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_01" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
+					<IncludedMemoryFiles>
 						<File Id="195933173" Language="SFX">
 							<ShortName>marimba_c2_1.wav</ShortName>
-							<Path>SFX\marimba_c2_1_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2425325536" Name="Marimba_09" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_09" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
-					<IncludedMemoryFiles>
-						<File Id="260673542" Language="SFX">
-							<ShortName>marimba_d2_1.wav</ShortName>
-							<Path>SFX\marimba_d2_1_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2408547958" Name="Marimba_10" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_10" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
-					<IncludedMemoryFiles>
-						<File Id="270918972" Language="SFX">
-							<ShortName>marimba_e2_1.wav</ShortName>
-							<Path>SFX\marimba_e2_1_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2408547959" Name="Marimba_11" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_11" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
-					<IncludedMemoryFiles>
-						<File Id="675793167" Language="SFX">
-							<ShortName>marimba_f2_1.wav</ShortName>
-							<Path>SFX\marimba_f2_1_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2408547956" Name="Marimba_12" ObjectPath="\Events\Default Work Unit\Marimba_Stick\Marimba_12" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
-					<IncludedMemoryFiles>
-						<File Id="538411453" Language="SFX">
-							<ShortName>marimba_g2_1.wav</ShortName>
-							<Path>SFX\marimba_g2_1_10C4C929.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1771210286" Name="Marimba_Mallet_01" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_01" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
-					<IncludedMemoryFiles>
-						<File Id="823887300" Language="SFX">
-							<ShortName>marimba_c1_1.wav</ShortName>
-							<Path>SFX\marimba_c1_1_10C4C929.wem</Path>
+							<Path>SFX/marimba_c2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1771210285" Name="Marimba_Mallet_02" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_02" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
-						<File Id="340729439" Language="SFX">
-							<ShortName>marimba_d1_1.wav</ShortName>
-							<Path>SFX\marimba_d1_1_10C4C929.wem</Path>
+						<File Id="260673542" Language="SFX">
+							<ShortName>marimba_d2_1.wav</ShortName>
+							<Path>SFX/marimba_d2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1771210284" Name="Marimba_Mallet_03" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_03" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
+				<Event Id="1771210284" Name="Marimba_Mallet_03" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_03" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
 					<IncludedMemoryFiles>
-						<File Id="682839942" Language="SFX">
-							<ShortName>marimba_e1_1.wav</ShortName>
-							<Path>SFX\marimba_e1_1_10C4C929.wem</Path>
+						<File Id="270918972" Language="SFX">
+							<ShortName>marimba_e2_1.wav</ShortName>
+							<Path>SFX/marimba_e2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1771210283" Name="Marimba_Mallet_04" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_04" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
+				<Event Id="1771210283" Name="Marimba_Mallet_04" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_04" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
 					<IncludedMemoryFiles>
-						<File Id="270431304" Language="SFX">
-							<ShortName>marimba_f1_1.wav</ShortName>
-							<Path>SFX\marimba_f1_1_10C4C929.wem</Path>
+						<File Id="675793167" Language="SFX">
+							<ShortName>marimba_f2_1.wav</ShortName>
+							<Path>SFX/marimba_f2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1771210282" Name="Marimba_Mallet_05" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_05" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
+				<Event Id="1771210282" Name="Marimba_Mallet_05" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_05" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
-						<File Id="1047823934" Language="SFX">
-							<ShortName>marimba_g1_1.wav</ShortName>
-							<Path>SFX\marimba_g1_1_10C4C929.wem</Path>
+						<File Id="538411453" Language="SFX">
+							<ShortName>marimba_g2_1.wav</ShortName>
+							<Path>SFX/marimba_g2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1771210281" Name="Marimba_Mallet_06" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_06" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
+				<Event Id="1771210281" Name="Marimba_Mallet_06" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_06" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
 					<IncludedMemoryFiles>
-						<File Id="610314272" Language="SFX">
-							<ShortName>marimba_a1_1.wav</ShortName>
-							<Path>SFX\marimba_a1_1_10C4C929.wem</Path>
+						<File Id="643814831" Language="SFX">
+							<ShortName>marimba_a2_1.wav</ShortName>
+							<Path>SFX/marimba_a2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1771210280" Name="Marimba_Mallet_07" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_07" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
-						<File Id="579715613" Language="SFX">
-							<ShortName>marimba_b1_1.wav</ShortName>
-							<Path>SFX\marimba_b1_1_10C4C929.wem</Path>
+						<File Id="780682532" Language="SFX">
+							<ShortName>marimba_b2_1.wav</ShortName>
+							<Path>SFX/marimba_b2_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="1771210279" Name="Marimba_Mallet_08" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_08" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
 					<IncludedMemoryFiles>
-						<File Id="195933173" Language="SFX">
-							<ShortName>marimba_c2_1.wav</ShortName>
-							<Path>SFX\marimba_c2_1_10C4C929.wem</Path>
+						<File Id="902701276" Language="SFX">
+							<ShortName>marimba_c3_1.wav</ShortName>
+							<Path>SFX/marimba_c3_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1771210278" Name="Marimba_Mallet_09" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_09" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
+				<Event Id="1771210278" Name="Marimba_Mallet_09" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_09" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
 					<IncludedMemoryFiles>
-						<File Id="260673542" Language="SFX">
-							<ShortName>marimba_d2_1.wav</ShortName>
-							<Path>SFX\marimba_d2_1_10C4C929.wem</Path>
+						<File Id="428218596" Language="SFX">
+							<ShortName>marimba_d3_1.wav</ShortName>
+							<Path>SFX/marimba_d3_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1754432700" Name="Marimba_Mallet_10" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_10" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
+				<Event Id="1754432700" Name="Marimba_Mallet_10" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_10" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
 					<IncludedMemoryFiles>
-						<File Id="270918972" Language="SFX">
-							<ShortName>marimba_e2_1.wav</ShortName>
-							<Path>SFX\marimba_e2_1_10C4C929.wem</Path>
+						<File Id="846349212" Language="SFX">
+							<ShortName>marimba_e3_1.wav</ShortName>
+							<Path>SFX/marimba_e3_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1754432701" Name="Marimba_Mallet_11" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_11" DurationType="OneShot" DurationMin="3.413333" DurationMax="3.413333">
+				<Event Id="1754432701" Name="Marimba_Mallet_11" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_11" DurationType="OneShot" DurationMin="2.048" DurationMax="2.048">
 					<IncludedMemoryFiles>
-						<File Id="675793167" Language="SFX">
-							<ShortName>marimba_f2_1.wav</ShortName>
-							<Path>SFX\marimba_f2_1_10C4C929.wem</Path>
+						<File Id="391452647" Language="SFX">
+							<ShortName>marimba_f3_1.wav</ShortName>
+							<Path>SFX/marimba_f3_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1754432702" Name="Marimba_Mallet_12" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_12" DurationType="OneShot" DurationMin="2.730667" DurationMax="2.730667">
+				<Event Id="1754432702" Name="Marimba_Mallet_12" ObjectPath="\Events\Default Work Unit\Marimba_Mallet\Marimba_Mallet_12" DurationType="OneShot" DurationMin="1.365333" DurationMax="1.365333">
 					<IncludedMemoryFiles>
-						<File Id="538411453" Language="SFX">
-							<ShortName>marimba_g2_1.wav</ShortName>
-							<Path>SFX\marimba_g2_1_10C4C929.wem</Path>
+						<File Id="504104466" Language="SFX">
+							<ShortName>marimba_g3_1.wav</ShortName>
+							<Path>SFX/marimba_g3_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -377,7 +377,7 @@
 					<IncludedMemoryFiles>
 						<File Id="767151875" Language="SFX">
 							<ShortName>ES_Wood_Hits_Wood_4_-_SFX_Producer.wav</ShortName>
-							<Path>SFX\ES_Wood_Hits_Wood_4_-_SFX_Producer_10C4C929.wem</Path>
+							<Path>SFX/ES_Wood_Hits_Wood_4_-_SFX_Producer_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -385,7 +385,7 @@
 					<IncludedMemoryFiles>
 						<File Id="548673738" Language="SFX">
 							<ShortName>voiceofgawd.wav</ShortName>
-							<Path>SFX\voiceofgawd_10C4C929.wem</Path>
+							<Path>SFX/voiceofgawd_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -393,7 +393,7 @@
 					<IncludedMemoryFiles>
 						<File Id="230478634" Language="SFX">
 							<ShortName>qwefda_E.mid</ShortName>
-							<Path>SFX\qwefda_E_F75DD9D9.wmid</Path>
+							<Path>SFX/qwefda_E_F75DD9D9.wmid</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -401,99 +401,99 @@
 			<IncludedMemoryFiles>
 				<File Id="130206223" Language="SFX">
 					<ShortName>boomwhacker_B1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_B1_1_10C4C929.wem</Path>
+					<Path>SFX/boomwhacker_B1_1_10C4C929.wem</Path>
 				</File>
 				<File Id="162371181" Language="SFX">
 					<ShortName>boomwhacker_D1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_D1_1_10C4C929.wem</Path>
+					<Path>SFX/boomwhacker_D1_1_10C4C929.wem</Path>
 				</File>
 				<File Id="195933173" Language="SFX">
 					<ShortName>marimba_c2_1.wav</ShortName>
-					<Path>SFX\marimba_c2_1_10C4C929.wem</Path>
+					<Path>SFX/marimba_c2_1_10C4C929.wem</Path>
 				</File>
 				<File Id="260673542" Language="SFX">
 					<ShortName>marimba_d2_1.wav</ShortName>
-					<Path>SFX\marimba_d2_1_10C4C929.wem</Path>
+					<Path>SFX/marimba_d2_1_10C4C929.wem</Path>
 				</File>
 				<File Id="263339574" Language="SFX">
 					<ShortName>boomwhacker_E1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_E1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="270431304" Language="SFX">
-					<ShortName>marimba_f1_1.wav</ShortName>
-					<Path>SFX\marimba_f1_1_10C4C929.wem</Path>
+					<Path>SFX/boomwhacker_E1_1_10C4C929.wem</Path>
 				</File>
 				<File Id="270918972" Language="SFX">
 					<ShortName>marimba_e2_1.wav</ShortName>
-					<Path>SFX\marimba_e2_1_10C4C929.wem</Path>
+					<Path>SFX/marimba_e2_1_10C4C929.wem</Path>
 				</File>
 				<File Id="335013293" Language="SFX">
 					<ShortName>boomwhacker_F1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_F1_1_10C4C929.wem</Path>
-				</File>
-				<File Id="340729439" Language="SFX">
-					<ShortName>marimba_d1_1.wav</ShortName>
-					<Path>SFX\marimba_d1_1_10C4C929.wem</Path>
+					<Path>SFX/boomwhacker_F1_1_10C4C929.wem</Path>
 				</File>
 				<File Id="341514206" Language="SFX">
 					<ShortName>boomwhacker_A1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_A1_1_10C4C929.wem</Path>
+					<Path>SFX/boomwhacker_A1_1_10C4C929.wem</Path>
+				</File>
+				<File Id="391452647" Language="SFX">
+					<ShortName>marimba_f3_1.wav</ShortName>
+					<Path>SFX/marimba_f3_1_10C4C929.wem</Path>
+				</File>
+				<File Id="428218596" Language="SFX">
+					<ShortName>marimba_d3_1.wav</ShortName>
+					<Path>SFX/marimba_d3_1_10C4C929.wem</Path>
 				</File>
 				<File Id="477897202" Language="SFX">
 					<ShortName>boomwhacker_G1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_G1_1_10C4C929.wem</Path>
+					<Path>SFX/boomwhacker_G1_1_10C4C929.wem</Path>
+				</File>
+				<File Id="504104466" Language="SFX">
+					<ShortName>marimba_g3_1.wav</ShortName>
+					<Path>SFX/marimba_g3_1_10C4C929.wem</Path>
 				</File>
 				<File Id="538411453" Language="SFX">
 					<ShortName>marimba_g2_1.wav</ShortName>
-					<Path>SFX\marimba_g2_1_10C4C929.wem</Path>
+					<Path>SFX/marimba_g2_1_10C4C929.wem</Path>
 				</File>
 				<File Id="548673738" Language="SFX">
 					<ShortName>voiceofgawd.wav</ShortName>
-					<Path>SFX\voiceofgawd_10C4C929.wem</Path>
-				</File>
-				<File Id="579715613" Language="SFX">
-					<ShortName>marimba_b1_1.wav</ShortName>
-					<Path>SFX\marimba_b1_1_10C4C929.wem</Path>
+					<Path>SFX/voiceofgawd_10C4C929.wem</Path>
 				</File>
 				<File Id="602536372" Language="SFX">
 					<ShortName>ES_Fire Wood Crackle - SFX Producer.wav</ShortName>
-					<Path>SFX\ES_Fire Wood Crackle - SFX Producer_D79FB2B7.wem</Path>
+					<Path>SFX/ES_Fire Wood Crackle - SFX Producer_D79FB2B7.wem</Path>
 				</File>
-				<File Id="610314272" Language="SFX">
-					<ShortName>marimba_a1_1.wav</ShortName>
-					<Path>SFX\marimba_a1_1_10C4C929.wem</Path>
+				<File Id="643814831" Language="SFX">
+					<ShortName>marimba_a2_1.wav</ShortName>
+					<Path>SFX/marimba_a2_1_10C4C929.wem</Path>
 				</File>
 				<File Id="675793167" Language="SFX">
 					<ShortName>marimba_f2_1.wav</ShortName>
-					<Path>SFX\marimba_f2_1_10C4C929.wem</Path>
-				</File>
-				<File Id="682839942" Language="SFX">
-					<ShortName>marimba_e1_1.wav</ShortName>
-					<Path>SFX\marimba_e1_1_10C4C929.wem</Path>
+					<Path>SFX/marimba_f2_1_10C4C929.wem</Path>
 				</File>
 				<File Id="767151875" Language="SFX">
 					<ShortName>ES_Wood_Hits_Wood_4_-_SFX_Producer.wav</ShortName>
-					<Path>SFX\ES_Wood_Hits_Wood_4_-_SFX_Producer_10C4C929.wem</Path>
+					<Path>SFX/ES_Wood_Hits_Wood_4_-_SFX_Producer_10C4C929.wem</Path>
 				</File>
-				<File Id="823887300" Language="SFX">
-					<ShortName>marimba_c1_1.wav</ShortName>
-					<Path>SFX\marimba_c1_1_10C4C929.wem</Path>
+				<File Id="780682532" Language="SFX">
+					<ShortName>marimba_b2_1.wav</ShortName>
+					<Path>SFX/marimba_b2_1_10C4C929.wem</Path>
+				</File>
+				<File Id="846349212" Language="SFX">
+					<ShortName>marimba_e3_1.wav</ShortName>
+					<Path>SFX/marimba_e3_1_10C4C929.wem</Path>
 				</File>
 				<File Id="893299049" Language="SFX">
 					<ShortName>boomwhacker_C1_1.wav</ShortName>
-					<Path>SFX\boomwhacker_C1_1_10C4C929.wem</Path>
+					<Path>SFX/boomwhacker_C1_1_10C4C929.wem</Path>
+				</File>
+				<File Id="902701276" Language="SFX">
+					<ShortName>marimba_c3_1.wav</ShortName>
+					<Path>SFX/marimba_c3_1_10C4C929.wem</Path>
 				</File>
 				<File Id="1032974019" Language="SFX">
 					<ShortName>boomwhacker_C2_1.wav</ShortName>
-					<Path>SFX\boomwhacker_C2_1_10C4C929.wem</Path>
+					<Path>SFX/boomwhacker_C2_1_10C4C929.wem</Path>
 				</File>
 				<File Id="1039888937" Language="SFX">
 					<ShortName>ES_Forest Ambience 2 - SFX Producer.wav</ShortName>
-					<Path>SFX\ES_Forest Ambience 2 - SFX Producer_D79FB2B7.wem</Path>
-				</File>
-				<File Id="1047823934" Language="SFX">
-					<ShortName>marimba_g1_1.wav</ShortName>
-					<Path>SFX\marimba_g1_1_10C4C929.wem</Path>
+					<Path>SFX/ES_Forest Ambience 2 - SFX Producer_D79FB2B7.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

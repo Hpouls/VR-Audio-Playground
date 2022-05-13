@@ -3,7 +3,7 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{70A35B75-F506-4935-90C7-936C8D1AACD3}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="Y:\Desktop\Soundfiles\marimba\"/>
 				<Property Name="Event Action List\{1E37C2C3-04C2-4749-910F-2C0832791BF7}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{2E76AD3D-133B-4723-8997-05642F58B5E4}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{3181064D-6C2A-4CD1-A367-C1F782648660}\x64_Expand States" Type="string" Value=""/>
@@ -56,6 +56,8 @@
 				<Property Name="Music Transition List\{3333DE00-BF0E-44A5-9CA1-F2E1BC11A562}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Music Transition List\{F4011AB9-64CF-435E-B094-255D9199B2B4}\Scroll Position" Type="int32" Value="0"/>
 				<Property Name="Music Transition List\{F4011AB9-64CF-435E-B094-255D9199B2B4}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="PluginUserAcknowledge\iZotope Hybrid Reverb" Type="bool" Value="True"/>
+				<Property Name="PluginUserAcknowledge\iZotope Trash Delay" Type="bool" Value="True"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_12_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
 				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{27092F88-225A-1154-6725-C8A34F3D4482}"/>
@@ -77,7 +79,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_22_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="gQN1IfenU0OONTjnOaKNepV1emfoabZDtO69s+lcBTA2iexcEDJ0RJQGphQODzvXZW2//QH500Wj6UmL/Gn8tQ=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="gQN1IfenU0OONTjnOaKNepV1emfoabZDtO69s+lcBTA="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value="+modx2xg2UOMP4SynBOOgp0vAmmVGolGupH0069u+cQ="/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_6_1" Type="string" Value=""/>

@@ -5,7 +5,7 @@
 			<ChildrenList>
 				<Folder Name="Marimba" ID="{5CEC8936-3210-4474-9406-A6140E0F3BD7}" ShortID="357580215">
 					<ChildrenList>
-						<Sound Name="marimba_a1_1" ID="{11F1AA0B-7728-4EAD-8874-0E5C2F500349}" ShortID="946286792">
+						<Sound Name="marimba_a2_1" ID="{11F1AA0B-7728-4EAD-8874-0E5C2F500349}" ShortID="946286792">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="MaxSoundPerInstance" Type="int16">
@@ -23,20 +23,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_a1_1" ID="{012F0ACE-2F60-4C0D-93DF-AD312578E0A7}">
+								<AudioFileSource Name="marimba_a2_1" ID="{0DC941D6-A7CE-4A9A-A322-ACFB81C09732}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_a1_1.wav</AudioFile>
+									<AudioFile>marimba_a2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="610314272"/>
+										<MediaID ID="643814831"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_a1_1" ID="{012F0ACE-2F60-4C0D-93DF-AD312578E0A7}" Platform="Linked"/>
+								<ActiveSource Name="marimba_a2_1" ID="{0DC941D6-A7CE-4A9A-A322-ACFB81C09732}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_b1_1" ID="{DCAC6080-2839-4B78-ABD1-535584DF2FD1}" ShortID="423947780">
+						<Sound Name="marimba_b2_1" ID="{DCAC6080-2839-4B78-ABD1-535584DF2FD1}" ShortID="423947780">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -49,20 +49,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_b1_1" ID="{7C33896E-4A24-4F66-893C-5FDFCAFC9A8F}">
+								<AudioFileSource Name="marimba_b2_1" ID="{8604E635-6036-499F-9AFD-825E29161E12}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_b1_1.wav</AudioFile>
+									<AudioFile>marimba_b2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="579715613"/>
+										<MediaID ID="780682532"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_b1_1" ID="{7C33896E-4A24-4F66-893C-5FDFCAFC9A8F}" Platform="Linked"/>
+								<ActiveSource Name="marimba_b2_1" ID="{8604E635-6036-499F-9AFD-825E29161E12}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_c1_1" ID="{659B8EE0-C8E2-4A98-8C35-48DD580EBD6F}" ShortID="208885494">
+						<Sound Name="marimba_c2_1" ID="{659B8EE0-C8E2-4A98-8C35-48DD580EBD6F}" ShortID="208885494">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -75,33 +75,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_c1_1" ID="{3A1CA95B-B078-42EC-BC55-93BB44353597}">
-									<Language>SFX</Language>
-									<AudioFile>marimba_c1_1.wav</AudioFile>
-									<MediaIDList>
-										<MediaID ID="823887300"/>
-									</MediaIDList>
-								</AudioFileSource>
-							</ChildrenList>
-							<ObjectLists/>
-							<ActiveSourceList>
-								<ActiveSource Name="marimba_c1_1" ID="{3A1CA95B-B078-42EC-BC55-93BB44353597}" Platform="Linked"/>
-							</ActiveSourceList>
-						</Sound>
-						<Sound Name="marimba_c2_1" ID="{5132F479-6798-4338-8054-40F75843F3B4}" ShortID="382716096">
-							<PropertyList>
-								<Property Name="3DSpatialization" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
-								</Reference>
-							</ReferenceList>
-							<ChildrenList>
-								<AudioFileSource Name="marimba_c2_1" ID="{5642DF26-A73F-46CC-A0F1-6C442186E901}">
+								<AudioFileSource Name="marimba_c2_1" ID="{9A0F00EC-BB33-44E2-AF19-DE2F7FA7A381}">
 									<Language>SFX</Language>
 									<AudioFile>marimba_c2_1.wav</AudioFile>
 									<MediaIDList>
@@ -111,10 +85,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_c2_1" ID="{5642DF26-A73F-46CC-A0F1-6C442186E901}" Platform="Linked"/>
+								<ActiveSource Name="marimba_c2_1" ID="{9A0F00EC-BB33-44E2-AF19-DE2F7FA7A381}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_d1_1" ID="{8C3D2689-99BF-4DAF-8D65-FB2D1966D536}" ShortID="981233086">
+						<Sound Name="marimba_c3_1" ID="{5132F479-6798-4338-8054-40F75843F3B4}" ShortID="382716096">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -127,20 +101,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_d1_1" ID="{D0E3AE48-C57D-482C-9812-ED42463A81C4}">
+								<AudioFileSource Name="marimba_c3_1" ID="{B0361C3E-2F80-492C-B486-A0BFA4969B08}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_d1_1.wav</AudioFile>
+									<AudioFile>marimba_c3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="340729439"/>
+										<MediaID ID="902701276"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_d1_1" ID="{D0E3AE48-C57D-482C-9812-ED42463A81C4}" Platform="Linked"/>
+								<ActiveSource Name="marimba_c3_1" ID="{B0361C3E-2F80-492C-B486-A0BFA4969B08}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_d2_1" ID="{B3F466F5-7185-4C4A-9B7D-C7647EA2381A}" ShortID="45849001">
+						<Sound Name="marimba_d2_1" ID="{8C3D2689-99BF-4DAF-8D65-FB2D1966D536}" ShortID="981233086">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -153,7 +127,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_d2_1" ID="{EE4D4959-0909-46AC-8F49-3C31AFB83D24}">
+								<AudioFileSource Name="marimba_d2_1" ID="{9CA9E135-849E-47E2-9F33-9B7C76B4CB81}">
 									<Language>SFX</Language>
 									<AudioFile>marimba_d2_1.wav</AudioFile>
 									<MediaIDList>
@@ -163,10 +137,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_d2_1" ID="{EE4D4959-0909-46AC-8F49-3C31AFB83D24}" Platform="Linked"/>
+								<ActiveSource Name="marimba_d2_1" ID="{9CA9E135-849E-47E2-9F33-9B7C76B4CB81}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_e1_1" ID="{0CF7BED1-97FF-40DA-8A4F-422583CAF0C8}" ShortID="826263532">
+						<Sound Name="marimba_d3_1" ID="{B3F466F5-7185-4C4A-9B7D-C7647EA2381A}" ShortID="45849001">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -179,20 +153,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_e1_1" ID="{E63D1E18-8CD4-4559-AC56-0890FF627CAA}">
+								<AudioFileSource Name="marimba_d3_1" ID="{F503792F-B428-4B62-A006-4EBC6CB0A0DB}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_e1_1.wav</AudioFile>
+									<AudioFile>marimba_d3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="682839942"/>
+										<MediaID ID="428218596"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_e1_1" ID="{E63D1E18-8CD4-4559-AC56-0890FF627CAA}" Platform="Linked"/>
+								<ActiveSource Name="marimba_d3_1" ID="{F503792F-B428-4B62-A006-4EBC6CB0A0DB}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_e2_1" ID="{5D55E373-9837-4E4E-AF54-1D4E1AB7C3AC}" ShortID="669200255">
+						<Sound Name="marimba_e2_1" ID="{0CF7BED1-97FF-40DA-8A4F-422583CAF0C8}" ShortID="826263532">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -205,7 +179,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_e2_1" ID="{92657DEB-0F2D-4594-A6E3-A6AB782E2B19}">
+								<AudioFileSource Name="marimba_e2_1" ID="{661920D6-403C-483F-AC0E-3BDED7DFB430}">
 									<Language>SFX</Language>
 									<AudioFile>marimba_e2_1.wav</AudioFile>
 									<MediaIDList>
@@ -215,10 +189,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_e2_1" ID="{92657DEB-0F2D-4594-A6E3-A6AB782E2B19}" Platform="Linked"/>
+								<ActiveSource Name="marimba_e2_1" ID="{661920D6-403C-483F-AC0E-3BDED7DFB430}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_f1_1" ID="{7A520758-0A82-4415-8147-1A038B8904A8}" ShortID="642385259">
+						<Sound Name="marimba_e3_1" ID="{5D55E373-9837-4E4E-AF54-1D4E1AB7C3AC}" ShortID="669200255">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -231,20 +205,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_f1_1" ID="{86DBF5FC-7A22-4ECD-B2FB-C5A4FA8476E6}">
+								<AudioFileSource Name="marimba_e3_1" ID="{70EA1A5C-6E7A-416F-AE14-D60B4F24F906}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_f1_1.wav</AudioFile>
+									<AudioFile>marimba_e3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="270431304"/>
+										<MediaID ID="846349212"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_f1_1" ID="{86DBF5FC-7A22-4ECD-B2FB-C5A4FA8476E6}" Platform="Linked"/>
+								<ActiveSource Name="marimba_e3_1" ID="{70EA1A5C-6E7A-416F-AE14-D60B4F24F906}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_f2_1" ID="{68867056-33FD-4DE5-8926-B40D704A024F}" ShortID="21541386">
+						<Sound Name="marimba_f2_1" ID="{7A520758-0A82-4415-8147-1A038B8904A8}" ShortID="642385259">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -257,7 +231,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_f2_1" ID="{150083EF-1C5C-4F38-934C-E3AE3D62F89A}">
+								<AudioFileSource Name="marimba_f2_1" ID="{66BAD957-5B72-4E99-AE5F-5C881D170CFE}">
 									<Language>SFX</Language>
 									<AudioFile>marimba_f2_1.wav</AudioFile>
 									<MediaIDList>
@@ -267,10 +241,10 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_f2_1" ID="{150083EF-1C5C-4F38-934C-E3AE3D62F89A}" Platform="Linked"/>
+								<ActiveSource Name="marimba_f2_1" ID="{66BAD957-5B72-4E99-AE5F-5C881D170CFE}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_g1_1" ID="{B86A5AA6-D1C0-4D49-B4F7-3FCBED096BEE}" ShortID="154488321">
+						<Sound Name="marimba_f3_1" ID="{68867056-33FD-4DE5-8926-B40D704A024F}" ShortID="21541386">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -283,20 +257,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_g1_1" ID="{5CEF4873-EFD9-4AD6-8244-5556A56F2795}">
+								<AudioFileSource Name="marimba_f3_1" ID="{79D7CC37-EF44-4F53-A937-697889784E38}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_g1_1.wav</AudioFile>
+									<AudioFile>marimba_f3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1047823934"/>
+										<MediaID ID="391452647"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_g1_1" ID="{5CEF4873-EFD9-4AD6-8244-5556A56F2795}" Platform="Linked"/>
+								<ActiveSource Name="marimba_f3_1" ID="{79D7CC37-EF44-4F53-A937-697889784E38}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_g2_1" ID="{2E6D5E26-AEFA-4D14-A93A-F27377D16EB5}" ShortID="397354126">
+						<Sound Name="marimba_g2_1" ID="{B86A5AA6-D1C0-4D49-B4F7-3FCBED096BEE}" ShortID="154488321">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 							</PropertyList>
@@ -309,7 +283,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_g2_1" ID="{BACD5B79-E063-401E-8857-71C837F792B9}">
+								<AudioFileSource Name="marimba_g2_1" ID="{64253C8B-CEED-4E2C-BFAE-CEE7ED0F198A}">
 									<Language>SFX</Language>
 									<AudioFile>marimba_g2_1.wav</AudioFile>
 									<MediaIDList>
@@ -319,7 +293,33 @@
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_g2_1" ID="{BACD5B79-E063-401E-8857-71C837F792B9}" Platform="Linked"/>
+								<ActiveSource Name="marimba_g2_1" ID="{64253C8B-CEED-4E2C-BFAE-CEE7ED0F198A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="marimba_g3_1" ID="{2E6D5E26-AEFA-4D14-A93A-F27377D16EB5}" ShortID="397354126">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="marimba_g3_1" ID="{7D5FDC74-17B8-4BBE-A800-46231DBAA95F}">
+									<Language>SFX</Language>
+									<AudioFile>marimba_g3_1.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="504104466"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="marimba_g3_1" ID="{7D5FDC74-17B8-4BBE-A800-46231DBAA95F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
@@ -514,7 +514,7 @@
 				</Folder>
 				<Folder Name="Marimba_Mallet" ID="{BCCD22AA-651F-4B12-9A91-0B66AE7EE323}" ShortID="1022987906">
 					<ChildrenList>
-						<Sound Name="marimba_d2_1" ID="{A989D590-6EF8-4C06-BB0D-58C3E80F4B8D}" ShortID="301896599">
+						<Sound Name="marimba_d3_1" ID="{A989D590-6EF8-4C06-BB0D-58C3E80F4B8D}" ShortID="301896599">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -536,20 +536,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_d2_1" ID="{E83ED312-CEED-42DE-86B4-C18B5AFCA4C6}">
+								<AudioFileSource Name="marimba_d3_1" ID="{8A939A8F-5537-4FB3-946D-92BA08B853D9}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_d2_1.wav</AudioFile>
+									<AudioFile>marimba_d3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="260673542"/>
+										<MediaID ID="428218596"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_d2_1" ID="{E83ED312-CEED-42DE-86B4-C18B5AFCA4C6}" Platform="Linked"/>
+								<ActiveSource Name="marimba_d3_1" ID="{8A939A8F-5537-4FB3-946D-92BA08B853D9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_a1_1" ID="{3FEF1CCD-BA3B-46AF-80F3-9302137F03F7}" ShortID="307496570">
+						<Sound Name="marimba_a2_1" ID="{3FEF1CCD-BA3B-46AF-80F3-9302137F03F7}" ShortID="307496570">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -571,20 +571,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_a1_1" ID="{EDEDAE86-4A2A-4854-AFAB-AA4842D7F042}">
+								<AudioFileSource Name="marimba_a2_1" ID="{61397825-0A0E-4232-958C-AFBE7591332A}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_a1_1.wav</AudioFile>
+									<AudioFile>marimba_a2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="610314272"/>
+										<MediaID ID="643814831"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_a1_1" ID="{EDEDAE86-4A2A-4854-AFAB-AA4842D7F042}" Platform="Linked"/>
+								<ActiveSource Name="marimba_a2_1" ID="{61397825-0A0E-4232-958C-AFBE7591332A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_e1_1" ID="{3E2A1585-7005-488A-8BAF-34172F370EF7}" ShortID="222606425">
+						<Sound Name="marimba_e2_1" ID="{3E2A1585-7005-488A-8BAF-34172F370EF7}" ShortID="222606425">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -606,20 +606,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_e1_1" ID="{AB75DD01-5FFC-4388-B5E0-72277EC57211}">
+								<AudioFileSource Name="marimba_e2_1" ID="{604F4CA2-EBE4-4BD7-A39B-B7E12F151899}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_e1_1.wav</AudioFile>
+									<AudioFile>marimba_e2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="682839942"/>
+										<MediaID ID="270918972"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_e1_1" ID="{AB75DD01-5FFC-4388-B5E0-72277EC57211}" Platform="Linked"/>
+								<ActiveSource Name="marimba_e2_1" ID="{604F4CA2-EBE4-4BD7-A39B-B7E12F151899}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_c2_1" ID="{2B7DBECB-5EFF-4D92-8F9B-75D1277F7FEE}" ShortID="618001627">
+						<Sound Name="marimba_c3_1" ID="{2B7DBECB-5EFF-4D92-8F9B-75D1277F7FEE}" ShortID="618001627">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -641,20 +641,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_c2_1" ID="{DA40FEB9-EFC4-402A-9EBC-3E7F7F39C99D}">
+								<AudioFileSource Name="marimba_c3_1" ID="{21984BB3-DDC1-45D9-82CE-B8E48476C937}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_c2_1.wav</AudioFile>
+									<AudioFile>marimba_c3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="195933173"/>
+										<MediaID ID="902701276"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_c2_1" ID="{DA40FEB9-EFC4-402A-9EBC-3E7F7F39C99D}" Platform="Linked"/>
+								<ActiveSource Name="marimba_c3_1" ID="{21984BB3-DDC1-45D9-82CE-B8E48476C937}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_f1_1" ID="{EC9D8FA1-3B75-4598-B86E-4910B6AFB85C}" ShortID="788768191">
+						<Sound Name="marimba_f2_1" ID="{EC9D8FA1-3B75-4598-B86E-4910B6AFB85C}" ShortID="788768191">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -676,20 +676,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_f1_1" ID="{5C43F8CC-3DEA-4668-B60C-C6F79E756BD0}">
+								<AudioFileSource Name="marimba_f2_1" ID="{D3025BFA-EDA8-408C-85F5-6B351FDDD0A0}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_f1_1.wav</AudioFile>
+									<AudioFile>marimba_f2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="270431304"/>
+										<MediaID ID="675793167"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_f1_1" ID="{5C43F8CC-3DEA-4668-B60C-C6F79E756BD0}" Platform="Linked"/>
+								<ActiveSource Name="marimba_f2_1" ID="{D3025BFA-EDA8-408C-85F5-6B351FDDD0A0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_f2_1" ID="{46ABAC1A-FF98-4EA2-AEF6-290C624F14E3}" ShortID="744490289">
+						<Sound Name="marimba_f3_1" ID="{46ABAC1A-FF98-4EA2-AEF6-290C624F14E3}" ShortID="744490289">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -711,20 +711,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_f2_1" ID="{FB398E33-9740-48FE-970B-CDDA613E656E}">
+								<AudioFileSource Name="marimba_f3_1" ID="{C907C344-88B1-46F7-B823-5BFB819E6F9F}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_f2_1.wav</AudioFile>
+									<AudioFile>marimba_f3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="675793167"/>
+										<MediaID ID="391452647"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_f2_1" ID="{FB398E33-9740-48FE-970B-CDDA613E656E}" Platform="Linked"/>
+								<ActiveSource Name="marimba_f3_1" ID="{C907C344-88B1-46F7-B823-5BFB819E6F9F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_b1_1" ID="{AAEDF63B-B33F-44E0-9618-F11D31689BED}" ShortID="345073184">
+						<Sound Name="marimba_b2_1" ID="{AAEDF63B-B33F-44E0-9618-F11D31689BED}" ShortID="345073184">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -746,20 +746,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_b1_1" ID="{E27AF205-E2C8-429A-9E97-CE78910B504F}">
+								<AudioFileSource Name="marimba_b2_1" ID="{80A833FA-738A-4DDF-9F83-FB003FB66B85}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_b1_1.wav</AudioFile>
+									<AudioFile>marimba_b2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="579715613"/>
+										<MediaID ID="780682532"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_b1_1" ID="{E27AF205-E2C8-429A-9E97-CE78910B504F}" Platform="Linked"/>
+								<ActiveSource Name="marimba_b2_1" ID="{80A833FA-738A-4DDF-9F83-FB003FB66B85}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_c1_1" ID="{2EA867FD-178E-4417-A2DB-1EA5AA4841B5}" ShortID="454531098">
+						<Sound Name="marimba_c2_1" ID="{2EA867FD-178E-4417-A2DB-1EA5AA4841B5}" ShortID="454531098">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -781,20 +781,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_c1_1" ID="{442D5479-6215-4A81-A774-BC6A1FB0BDE7}">
+								<AudioFileSource Name="marimba_c2_1" ID="{D644134D-7B4A-4FB4-ABF2-E61967531F1F}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_c1_1.wav</AudioFile>
+									<AudioFile>marimba_c2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="823887300"/>
+										<MediaID ID="195933173"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_c1_1" ID="{442D5479-6215-4A81-A774-BC6A1FB0BDE7}" Platform="Linked"/>
+								<ActiveSource Name="marimba_c2_1" ID="{D644134D-7B4A-4FB4-ABF2-E61967531F1F}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_g2_1" ID="{223B691A-9ED6-4CC8-B07A-B06049494FDD}" ShortID="187462188">
+						<Sound Name="marimba_g3_1" ID="{223B691A-9ED6-4CC8-B07A-B06049494FDD}" ShortID="187462188">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -816,20 +816,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_g2_1" ID="{75681DD4-F1CB-4539-AA8D-059D6A58E469}">
+								<AudioFileSource Name="marimba_g3_1" ID="{AF1F0CA2-5FA8-4BCA-8CB0-68965887C4B4}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_g2_1.wav</AudioFile>
+									<AudioFile>marimba_g3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="538411453"/>
+										<MediaID ID="504104466"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_g2_1" ID="{75681DD4-F1CB-4539-AA8D-059D6A58E469}" Platform="Linked"/>
+								<ActiveSource Name="marimba_g3_1" ID="{AF1F0CA2-5FA8-4BCA-8CB0-68965887C4B4}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_d1_1" ID="{3C58C401-51C6-4670-8AF7-5348AEBBD60D}" ShortID="28020989">
+						<Sound Name="marimba_d2_1" ID="{3C58C401-51C6-4670-8AF7-5348AEBBD60D}" ShortID="28020989">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -851,20 +851,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_d1_1" ID="{FFE25900-CF33-4DB6-9F04-D7417CC6DB00}">
+								<AudioFileSource Name="marimba_d2_1" ID="{16308959-E967-4C01-ADD8-C718CE4A4BC0}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_d1_1.wav</AudioFile>
+									<AudioFile>marimba_d2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="340729439"/>
+										<MediaID ID="260673542"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_d1_1" ID="{FFE25900-CF33-4DB6-9F04-D7417CC6DB00}" Platform="Linked"/>
+								<ActiveSource Name="marimba_d2_1" ID="{16308959-E967-4C01-ADD8-C718CE4A4BC0}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_e2_1" ID="{2F37E95B-1C47-4EF3-B909-0634B468E767}" ShortID="1061361346">
+						<Sound Name="marimba_e3_1" ID="{2F37E95B-1C47-4EF3-B909-0634B468E767}" ShortID="1061361346">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -886,20 +886,20 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_e2_1" ID="{1851A488-0AC2-487D-A26A-E09261E1E9B7}">
+								<AudioFileSource Name="marimba_e3_1" ID="{1579EC00-B5E9-4F2E-B248-F971E2881BC9}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_e2_1.wav</AudioFile>
+									<AudioFile>marimba_e3_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="270918972"/>
+										<MediaID ID="846349212"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_e2_1" ID="{1851A488-0AC2-487D-A26A-E09261E1E9B7}" Platform="Linked"/>
+								<ActiveSource Name="marimba_e3_1" ID="{1579EC00-B5E9-4F2E-B248-F971E2881BC9}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
-						<Sound Name="marimba_g1_1" ID="{1BCA82E9-EDCD-4662-8EB6-D10101C218E4}" ShortID="150275095">
+						<Sound Name="marimba_g2_1" ID="{1BCA82E9-EDCD-4662-8EB6-D10101C218E4}" ShortID="150275095">
 							<PropertyList>
 								<Property Name="Lowpass" Type="int16">
 									<ValueList>
@@ -921,17 +921,17 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<AudioFileSource Name="marimba_g1_1" ID="{785CA621-A9EA-4E23-A469-9DFCCBF26D4D}">
+								<AudioFileSource Name="marimba_g2_1" ID="{BDE3FEF1-252D-4F43-99EA-624CF6D6363A}">
 									<Language>SFX</Language>
-									<AudioFile>marimba_g1_1.wav</AudioFile>
+									<AudioFile>marimba_g2_1.wav</AudioFile>
 									<MediaIDList>
-										<MediaID ID="1047823934"/>
+										<MediaID ID="538411453"/>
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
 							<ObjectLists/>
 							<ActiveSourceList>
-								<ActiveSource Name="marimba_g1_1" ID="{785CA621-A9EA-4E23-A469-9DFCCBF26D4D}" Platform="Linked"/>
+								<ActiveSource Name="marimba_g2_1" ID="{BDE3FEF1-252D-4F43-99EA-624CF6D6363A}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
