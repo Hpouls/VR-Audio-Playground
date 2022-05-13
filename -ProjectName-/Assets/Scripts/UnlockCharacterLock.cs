@@ -9,6 +9,6 @@ public class UnlockCharacterLock : MonoBehaviour
 
     void Update()
     {
-        Destroy(destroyObject, 43.0f);
+        Destroy(destroyObject, 41.0f);
     }    
 }

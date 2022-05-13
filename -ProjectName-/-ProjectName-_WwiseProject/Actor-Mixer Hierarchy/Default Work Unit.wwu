@@ -1353,6 +1353,36 @@
 						<ActiveSource Name="voiceofgawd" ID="{9F3831B8-48CE-4E92-B40E-DE6B6B7A3996}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="ES_Wood_Hits_Wood_4_-_SFX_Producer" ID="{DA9307E8-D06A-4983-AFAE-6FE99730249E}" ShortID="382830276">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-11</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ES_Wood_Hits_Wood_4_-_SFX_Producer" ID="{5FC4CE37-C391-4FB1-B902-FF3875514C5C}">
+							<Language>SFX</Language>
+							<AudioFile>ES_Wood_Hits_Wood_4_-_SFX_Producer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="767151875"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="ES_Wood_Hits_Wood_4_-_SFX_Producer" ID="{5FC4CE37-C391-4FB1-B902-FF3875514C5C}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -25,5 +25,5 @@ MonoBehaviour:
   LateLatchingDebug: 0
   SpaceWarp: 0
   TargetQuest: 1
-  TargetQuest2: 1
+  TargetQuest2: 0
   SystemSplashScreen: {fileID: 0}

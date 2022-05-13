@@ -533,6 +533,17 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="StickSound" ID="{E4C9D379-FBD6-470E-A4C0-D874C6E202AE}">
+					<ChildrenList>
+						<Action Name="" ID="{D0B25EAC-C98E-4820-9773-E5AF0D79E873}" ShortID="688558742">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ES_Wood_Hits_Wood_4_-_SFX_Producer" ID="{DA9307E8-D06A-4983-AFAE-6FE99730249E}" WorkUnitID="{21750381-A7F7-4353-8E35-38E739A28D7A}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
