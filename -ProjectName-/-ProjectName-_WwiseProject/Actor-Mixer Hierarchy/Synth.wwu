@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{677A7595-69E8-43B6-B4EE-BDB3E95C0530}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Synth" ID="{677A7595-69E8-43B6-B4EE-BDB3E95C0530}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Square" ID="{19FF56E7-705B-4E2A-8CA8-5CE49417018B}" ShortID="180634968">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="test" ID="{D5BD7053-1C39-4E6F-9DAF-3B87B62C89D7}" WorkUnitID="{67AD067D-3404-4C47-9BAF-63B2A3B7B624}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3389364A-D0FF-4F0B-91ED-0E03A14CDF0E}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
+							<ObjectRef Name="Inside_My_Head" ID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{20F57A03-5477-405A-A4D9-F12CF2D4E631}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{B9061064-890E-4E0F-95D4-11DB6996D120}" ShortID="786707036" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="-6"/>
+								<Property Name="Osc2Level" Type="Real32" Value="-96"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="6"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{4C5414BF-82E1-4B20-AE0C-2577FB434612}" ShortID="931467251">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{65DFF721-EBF7-43F4-BFF2-2AED42FB27C7}" ShortID="164005529">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0.189"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.184"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="97.4"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2FE5446F-DBBB-4A73-AAE8-E94628C0C687}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{B9061064-890E-4E0F-95D4-11DB6996D120}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

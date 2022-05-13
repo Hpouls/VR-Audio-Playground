@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1315920940	green_G			\Default Work Unit\Synth\green_G	
+	1714369321	yellow_E			\Default Work Unit\Synth\yellow_E	
 	1754432700	Marimba_Mallet_10			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_10	
 	1754432701	Marimba_Mallet_11			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_11	
 	1754432702	Marimba_Mallet_12			\Default Work Unit\Marimba_Mallet\Marimba_Mallet_12	
@@ -41,15 +43,26 @@ Event	ID	Name			Wwise Object Path	Notes
 	3380606238	BoomWhacker_06			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_06	
 	3380606239	BoomWhacker_07			\Default Work Unit\BoomWhacker_Stick\BoomWhacker_07	
 	3787218347	ForestAmbience_event			\Default Work Unit\Ambience\ForestAmbience_event	
+	4010961695	blue_C			\Default Work Unit\Synth\blue_C	
 	4202052909	voiceOfGod_event			\Default Work Unit\voiceOfGod_event	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	577892632	Modulator Envelope (Custom)				
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+
+Effect plug-ins	ID	Name	Type				Notes
+	701863527	Inside_My_Head	Wwise RoomVerb			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	275485042	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Synth\New Sound SFX\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	130206223	boomwhacker_B1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\boomwhacker_B1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_B1_1		786576
 	162371181	boomwhacker_D1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\boomwhacker_D1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_D1_1		1310864
 	195933173	marimba_c2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_c2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_c2_1		524432
+	230478634	qwefda_E	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\qwefda_E_A6DD7CE8.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\green_G\qwefda_E		84
 	260673542	marimba_d2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_d2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_d2_1		524432
 	263339574	boomwhacker_E1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\boomwhacker_E1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_E1_1		1179792
 	270431304	marimba_f1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_f1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_f1_1		524432
@@ -57,6 +70,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	335013293	boomwhacker_F1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\boomwhacker_F1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_F1_1		1048720
 	340729439	marimba_d1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_d1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_d1_1		524432
 	341514206	boomwhacker_A1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\boomwhacker_A1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_A1_1		917648
+	378591030	qwefda_C	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\qwefda_C_A6DD7CE8.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\blue_C\qwefda_C		84
 	477897202	boomwhacker_G1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\boomwhacker_G1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_G1_1		1048720
 	538411453	marimba_g2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_g2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_g2_1		524432
 	548673738	voiceOfGod	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\voiceofgawd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\voiceOfGod		8116908
@@ -65,6 +79,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	610314272	marimba_a1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_a1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_a1_1		655504
 	675793167	marimba_f2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_f2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_f2_1		655504
 	682839942	marimba_e1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_e1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_e1_1		524432
+	800730267	qwefda_G	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\qwefda_G_A6DD7CE8.wmid		\Interactive Music Hierarchy\Default Work Unit\synth\yellow_E\qwefda_G		84
 	823887300	marimba_c1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\marimba_c1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Marimba\marimba_c1_1		655504
 	893299049	boomwhacker_C1_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\boomwhacker_C1_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_C1_1		1441936
 	1032974019	boomwhacker_C2_1	Y:\Documents\GitHub\Potato-Rock-Studio\-ProjectName-\-ProjectName-_WwiseProject\.cache\Android\SFX\boomwhacker_C2_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\BoomWhacker\boomwhacker_C2_1		786576

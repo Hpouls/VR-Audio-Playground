@@ -496,6 +496,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Synth" ID="{69022F9D-1A95-4689-BA91-F4D3AF6EF9C4}" ShortID="337262393">
+					<ChildrenList>
+						<Event Name="blue_C" ID="{38D5A0BD-5B3A-431E-A36D-E6EAD7322EAA}">
+							<ChildrenList>
+								<Action Name="" ID="{F1309CB5-7E3C-4D36-99FB-B10D391804C7}" ShortID="169868517">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="blue_C" ID="{CF1558DE-CFCB-404E-9416-B7C65D27C812}" WorkUnitID="{F143EB0F-8A50-4FBD-AEEF-027AD56329E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="yellow_E" ID="{8A52C5D1-BBFD-487C-9238-15713BDF5BAA}">
+							<ChildrenList>
+								<Action Name="" ID="{6675D3C6-6F59-49BB-B1CD-497406599716}" ShortID="535667451">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="yellow_E" ID="{1FB1A7C8-8788-44D8-85D7-F55FB3708C1E}" WorkUnitID="{F143EB0F-8A50-4FBD-AEEF-027AD56329E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="green_G" ID="{5092D672-31DC-4E9F-8B37-DF69B9B6C330}">
+							<ChildrenList>
+								<Action Name="" ID="{F4004ECA-7809-4902-8134-0483D513D5FC}" ShortID="795567415">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="green_G" ID="{92B35102-443A-4E2A-9BD9-C190EFFBDBD6}" WorkUnitID="{F143EB0F-8A50-4FBD-AEEF-027AD56329E6}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics/Default Work Unit
     guid: bf92dcc8daaf0a4ab64f0a4d93aa5f0c
     GuidInternal: 
-    m_lastTime: -8585493457473979698
+    m_lastTime: -8585493349389335771
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy/Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy/Default Work Unit
     guid: 037af52077545a40a4d9f12cf2d4e631
     GuidInternal: 
-    m_lastTime: -8585493457484284323
+    m_lastTime: -8585493349399449108
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -66,7 +66,7 @@ MonoBehaviour:
     ParentPath: SoundBanks/Default Work Unit
     guid: 7d934e5569237d4d9d5f4422770a94f3
     GuidInternal: 
-    m_lastTime: -8585493457473992580
+    m_lastTime: -8585493349389357570
     List:
     - name: Main
       guid: 83c37d594846df4ea4a80e131010f525
@@ -94,7 +94,7 @@ MonoBehaviour:
     ParentPath: Events/Default Work Unit
     guid: fa6a1dc76c60d9438c3f84b29c138e82
     GuidInternal: 
-    m_lastTime: -8585493422219988923
+    m_lastTime: -8585493298223440405
     List:
     - name: Ambience
       guid: 44fc74b7eeb52b4bb3928e5bf92f2ac1
@@ -113,6 +113,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: blue_C
+      guid: bda0d5383a5b1e43a36de6ead7322eaa
+      id: 4010961695
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fa6a1dc76c60d9438c3f84b29c138e82
+      - ElementName: Synth
+        ObjectType: 4
+        guid: 9d2f0269951a8946ba91f4d3af6ef9c4
+      - ElementName: blue_C
+        ObjectType: 3
+        guid: bda0d5383a5b1e43a36de6ead7322eaa
+      Path: Events/Default Work Unit/Synth/blue_C
+      maxAttenuation: 0
+      maxDuration: 28
+      minDuration: 28
     - name: BoomWhacker_01
       guid: 337987f33401d7459503bd1d360d8123
       id: 3380606233
@@ -507,6 +527,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: green_G
+      guid: 72d69250dc319f4e8b37df69b9b6c330
+      id: 1315920940
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fa6a1dc76c60d9438c3f84b29c138e82
+      - ElementName: Synth
+        ObjectType: 4
+        guid: 9d2f0269951a8946ba91f4d3af6ef9c4
+      - ElementName: green_G
+        ObjectType: 3
+        guid: 72d69250dc319f4e8b37df69b9b6c330
+      Path: Events/Default Work Unit/Synth/green_G
+      maxAttenuation: 0
+      maxDuration: 28
+      minDuration: 28
     - name: Marimba_01
       guid: 32c2325611c76e47ae9d1307fab535e4
       id: 2425325544
@@ -1021,6 +1061,23 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
+    - name: Synth
+      guid: 9d2f0269951a8946ba91f4d3af6ef9c4
+      id: 3928024197
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fa6a1dc76c60d9438c3f84b29c138e82
+      - ElementName: Synth
+        ObjectType: 4
+        guid: 9d2f0269951a8946ba91f4d3af6ef9c4
+      Path: Events/Default Work Unit/Synth
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
     - name: voiceOfGod_event
       guid: c3c2371ec2044947910f2c0832791bf7
       id: 4202052909
@@ -1038,6 +1095,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 46.0134
       minDuration: 46.0134
+    - name: yellow_E
+      guid: d1c5528afdbb7c48923815713bdf5baa
+      id: 1714369321
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fa6a1dc76c60d9438c3f84b29c138e82
+      - ElementName: Synth
+        ObjectType: 4
+        guid: 9d2f0269951a8946ba91f4d3af6ef9c4
+      - ElementName: yellow_E
+        ObjectType: 3
+        guid: d1c5528afdbb7c48923815713bdf5baa
+      Path: Events/Default Work Unit/Synth/yellow_E
+      maxAttenuation: 0
+      maxDuration: 28
+      minDuration: 28
   RtpcWwu:
   - PhysicalPath: Game Parameters/Default Work Unit.wwu
     PathAndIcons:
@@ -1050,7 +1127,7 @@ MonoBehaviour:
     ParentPath: Game Parameters/Default Work Unit
     guid: 0d77b2238478fc4790ba9e713bea96a2
     GuidInternal: 
-    m_lastTime: -8585493457495906573
+    m_lastTime: -8585493349409790989
     List: []
   StateWwu:
   - PhysicalPath: States/Default Work Unit.wwu
@@ -1064,7 +1141,7 @@ MonoBehaviour:
     ParentPath: States/Default Work Unit
     guid: be1b7f0cdee1244b9b76523ca0a7158c
     GuidInternal: 
-    m_lastTime: -8585493457473986911
+    m_lastTime: -8585493349389345160
     List: []
   SwitchWwu:
   - PhysicalPath: Switches/Default Work Unit.wwu
@@ -1078,7 +1155,7 @@ MonoBehaviour:
     ParentPath: Switches/Default Work Unit
     guid: 81fccc4c33d0dc408cac936b2963eace
     GuidInternal: 
-    m_lastTime: -8585493457473984591
+    m_lastTime: -8585493349389341518
     List: []
   TriggerWwu:
   - PhysicalPath: Triggers/Default Work Unit.wwu
@@ -1092,10 +1169,10 @@ MonoBehaviour:
     ParentPath: Triggers/Default Work Unit
     guid: 1179a0709cb8e941a1d2de0ff8a5dfef
     GuidInternal: 
-    m_lastTime: -8585493457473982219
+    m_lastTime: -8585493349389338828
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 010000000500000006000000
+  ExpandedWaapiItemIds: 050000000600000018000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

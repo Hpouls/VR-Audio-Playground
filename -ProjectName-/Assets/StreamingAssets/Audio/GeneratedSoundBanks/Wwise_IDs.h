@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID BLUE_C = 4010961695U;
         static const AkUniqueID BOOMWHACKER_01 = 3380606233U;
         static const AkUniqueID BOOMWHACKER_02 = 3380606234U;
         static const AkUniqueID BOOMWHACKER_03 = 3380606235U;
@@ -31,6 +32,7 @@ namespace AK
         static const AkUniqueID BOOMWHACKER_MALLET_08 = 2363352380U;
         static const AkUniqueID CAMPFIRE_EVENT = 2301274947U;
         static const AkUniqueID FORESTAMBIENCE_EVENT = 3787218347U;
+        static const AkUniqueID GREEN_G = 1315920940U;
         static const AkUniqueID MARIMBA_01 = 2425325544U;
         static const AkUniqueID MARIMBA_02 = 2425325547U;
         static const AkUniqueID MARIMBA_03 = 2425325546U;
@@ -56,6 +58,7 @@ namespace AK
         static const AkUniqueID MARIMBA_MALLET_11 = 1754432701U;
         static const AkUniqueID MARIMBA_MALLET_12 = 1754432702U;
         static const AkUniqueID VOICEOFGOD_EVENT = 4202052909U;
+        static const AkUniqueID YELLOW_E = 1714369321U;
     } // namespace EVENTS
 
     namespace BANKS

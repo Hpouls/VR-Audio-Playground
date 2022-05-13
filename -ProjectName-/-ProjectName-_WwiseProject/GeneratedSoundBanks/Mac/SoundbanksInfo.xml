@@ -11,16 +11,24 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2754342975">
+		<SoundBank Id="1355168291" Language="SFX" Hash="2779996550">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2141973080">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3401085911">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="4010961695" Name="blue_C" ObjectPath="\Events\Default Work Unit\Synth\blue_C" DurationType="OneShot" DurationMin="28." DurationMax="28.">
+					<IncludedMemoryFiles>
+						<File Id="378591030" Language="SFX">
+							<ShortName>qwefda_C.mid</ShortName>
+							<Path>SFX/qwefda_C_A6DD7CE8.wmid</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3380606233" Name="BoomWhacker_01" ObjectPath="\Events\Default Work Unit\BoomWhacker_Stick\BoomWhacker_01" DurationType="OneShot" DurationMin="7.509333" DurationMax="7.509333">
 					<IncludedMemoryFiles>
 						<File Id="893299049" Language="SFX">
@@ -162,6 +170,14 @@
 						<File Id="1039888937" Language="SFX">
 							<ShortName>ES_Forest Ambience 2 - SFX Producer.wav</ShortName>
 							<Path>SFX/ES_Forest Ambience 2 - SFX Producer_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1315920940" Name="green_G" ObjectPath="\Events\Default Work Unit\Synth\green_G" DurationType="OneShot" DurationMin="28." DurationMax="28.">
+					<IncludedMemoryFiles>
+						<File Id="230478634" Language="SFX">
+							<ShortName>qwefda_E.mid</ShortName>
+							<Path>SFX/qwefda_E_A6DD7CE8.wmid</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -362,6 +378,14 @@
 						<File Id="548673738" Language="SFX">
 							<ShortName>voiceofgawd.wav</ShortName>
 							<Path>SFX/voiceofgawd_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1714369321" Name="yellow_E" ObjectPath="\Events\Default Work Unit\Synth\yellow_E" DurationType="OneShot" DurationMin="28." DurationMax="28.">
+					<IncludedMemoryFiles>
+						<File Id="800730267" Language="SFX">
+							<ShortName>qwefda_G.mid</ShortName>
+							<Path>SFX/qwefda_G_A6DD7CE8.wmid</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

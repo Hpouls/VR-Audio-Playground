@@ -1110,12 +1110,12 @@
 								</Effect>
 								<Effect Name="Inside_My_Head" ID="{94B53301-9AA1-468F-8419-92AEDAAE39DF}" PluginName="Wwise RoomVerb" CompanyID="0" PluginID="118" PluginType="3">
 									<PropertyList>
-										<Property Name="DecayTime" Type="Real32" Value="0.8"/>
+										<Property Name="DecayTime" Type="Real32" Value="2"/>
 										<Property Name="Density" Type="Real32" Value="82"/>
 										<Property Name="Diffusion" Type="Real32" Value="0"/>
 										<Property Name="DryLevel" Type="Real32" Value="-96"/>
 										<Property Name="ERLevel" Type="Real32" Value="-3"/>
-										<Property Name="ERPattern" Type="int32" Value="24"/>
+										<Property Name="ERPattern" Type="int32" Value="9"/>
 										<Property Name="Filter1Freq" Type="Real32" Value="590"/>
 										<Property Name="Filter1Gain" Type="Real32" Value="-9.5"/>
 										<Property Name="Filter2Freq" Type="Real32" Value="780"/>

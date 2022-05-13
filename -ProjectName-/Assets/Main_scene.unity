@@ -1513,7 +1513,7 @@ MonoBehaviour:
   MushroomSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 871020fcffc034af9b42ffa0beb4fd13, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: fdb4865bd6a394b4c96f1fc3310f5346, type: 2}
 --- !u!64 &830993493
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2394,7 +2394,7 @@ MonoBehaviour:
   MushroomSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 871020fcffc034af9b42ffa0beb4fd13, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: 5c4e2cdba995343368fbe50cc272a3d7, type: 2}
 --- !u!64 &1156277620
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -3881,7 +3881,7 @@ MonoBehaviour:
   MushroomSound:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 871020fcffc034af9b42ffa0beb4fd13, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: c3a5b895728ca44a7a809f069c37aa33, type: 2}
 --- !u!64 &2130150539
 MeshCollider:
   m_ObjectHideFlags: 0
